@@ -1,0 +1,11 @@
+Create a new folder under tmp, tmp/css, call it site.css
+
+In that, put an external style sheet.
+
+Change the <link....>
+       to     <link rel="stylesheet" href="./css/site.css">
+
+Work thru the examples on quackit, make sticky things, change them
+from left to right, etc.  
+
+Upload your site.css to github, in the homework repository
