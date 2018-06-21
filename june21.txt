@@ -33,3 +33,6 @@ Make an identical or similar picture swapper.
 
 Then do a search for "sprite animation", find some example you'd
 like to learn. 
+
+Also search for  "javascript hit testing tutorial" and see if there's
+anything interesting you'd like to learn
