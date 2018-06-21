@@ -8,6 +8,9 @@ Change the <link....>
 Work thru the examples on quackit, make sticky things, change them
 from left to right, etc.  You can rush thru it but try everything once.
 
+
+https://www.quackit.com/css/tutorial/
+
 Keep your css in a separate stylesheet (not inline/imbedded, like the examples)
 
 
