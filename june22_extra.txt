@@ -1,0 +1,22 @@
+add an html table with three rows and 10 columns
+make the first row have contents "team", "1", "2", ... "9"
+make the first column second rows "Away"
+make the first column second rows "Home"
+
+give the table an outside border with a different color, see
+https://stackoverflow.com/questions/5875931/using-css-to-make-tables-outer-border-color-different-from-cells-border-color
+
+make the cell that says "away" have an id of #AwayActive
+and the cell that says "home" have an id of #HomeActive
+
+Make the text of one of those green, and the other yellow.
+
+make a button on the page that calls a javascript function:
+
+https://stackoverflow.com/questions/1947263/using-an-html-button-to-call-a-javascript-function
+
+Make the function toggle the home/away team -- set the Text of the
+cell to be green if it is currently yellow, and yellow if it is currently
+green
+
+https://stackoverflow.com/questions/3047755/i-am-trying-to-make-a-simple-toggle-button-in-javascript
