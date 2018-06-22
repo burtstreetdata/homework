@@ -1,0 +1,27 @@
+June 22, days getting shorter
+
+Work on this tutorial:
+
+     https://www.w3schools.com/jS/default.asp
+
+It shows you how to use "raw" javascript to do basic effects.
+In real applications, you use fancy libraries of javascript that
+shorten the syntax and have bundled composite effects, like
+crawling text, fades, throbbing, etc.
+
+This tutorial will introduce you to the underlying mechanism those
+libraries use.
+
+Starting with the web page you made that has a .js file already, in
+which you can add code, try the examples both in your local web page
+and in the tutorial's "try it now" section.
+
+Combining what homework from last three days, here's an assignment:
+	  make a paragraph of text that has an id of "switcher"
+	  use css to make that paragraph have a green background
+	  use javascript so that when your mose is over switcher, the paragraph
+	  changes to some other color, for example yellow or light gray
+
+	  Try to upload the .css and .js files up to the homework repository
+
+
