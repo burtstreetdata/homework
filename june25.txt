@@ -30,6 +30,35 @@ So that page is an example of how javascript and css work.  Try
 the tutorial at https://davidwalsh.name/demo/css-sprites.php
 again, modifying the pages
 
+-----
+
+Get from github the "extra" assignment from Friday.  In any kind
+of web page, play around with creating an "innings" scoreboard that
+looks attractive -- play with borders, padding, fonts, colors.
+You can search the web and see if there are gui css layout designers,
+feel  free to try them out, either install on your comuter or they
+might run online.
+
+-----
+
+Not Math, but:
+
+Split the megablocks however you like.  Get a bunch pictures, either
+on phone or on camera is fine.  I recommend making the pictures
+different -- in one, build a tower, in one sort them by colors,
+just make sure it's easy for us to tell what "batch" of blocks
+each picture is showing.  As illogical as it is, things will sell
+better with more pictures, and you can do things like show the
+different block sizes next to a quarter, you can show a picture
+of 5 of them being weighed on a scale -- quirky makes people remember
+the post.
+
+-----
+
+
+
+
+
 
 
 
