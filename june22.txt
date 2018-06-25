@@ -1,6 +1,4 @@
-June 22, days getting shorter
-
-Work on this tutorial:
+June 22, days getting shorter on this tutorial:
 
      https://www.w3schools.com/jS/default.asp
 

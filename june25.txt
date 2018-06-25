@@ -1,0 +1,39 @@
+Get the repository "scratchPage" from our git site onto your computer, have
+it  land in c:\tmp\scratchPage.  From Ubuntu, that  directory is called
+/mnt/c/tmp, and you want  to make /mnt/c/tmp/scratchPage
+
+First, try this in ubuntu
+
+cd  /mnt/c/tmp
+git clone https://github.com/burtstreetdata/scratchPage.git
+
+if that works, you'll  have them in c:\tmp\scratchPage.git
+
+--------------  if that  doesn't work, figure something out from
+git desktop or the github website, get  the project on your
+computer.   In the long run the unix command  line one is easiest
+to work with.
+
+
+You'll notice that the javascript, images, and css are each in
+their own directory.
+
+Since your web browser points at c:\tmp\, you will have to
+browse to "localhost:/scratchPage/" -- that will make it look
+from c:\tmp\scratchPage\index.html
+
+The images aren't in the git repository, download any three
+images, put them in c:\tmp\scratchPage\images\, give them names
+that match the index.html file.
+
+So that page is an example of how javascript and css work.  Try
+the tutorial at https://davidwalsh.name/demo/css-sprites.php
+again, modifying the pages
+
+
+
+
+
+
+
+
