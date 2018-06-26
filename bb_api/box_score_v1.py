@@ -23,8 +23,8 @@ try:
     response = requests.get(
         url=url,
         params={
-#            "gameid": "20180504-BOS-TEX",
-            "gameid": "20180624-SD-SF",
+            "gameid": "20180624-CHC-CIN",
+#            "gameid": "20180624-SD-SF",
             "teamstats": "none",
             "playerstats": "none"
         },
@@ -46,35 +46,7 @@ except requests.exceptions.RequestException:
 parsed = json.loads(response.content.decode('utf-8'))
 
 innings = parsed["gameboxscore"]["inningSummary"]["inning"]
+i=0
 for inning in innings:
-    print (inning)
+    print (f"There's {inning['awayScore']} for {inning['@number']} and home gets {inning['homeScore']}")
 
-    
-# response= send_request()
-# if response != None:
-#     parsed= json.loads(response.content.decode('utf-8'))
-
-# else:
-#     print ("it broke")
-#     exit
-
-# hostname = "localhost"
-# username="innings"
-# password="innings"
-# dbname="bigly"
-
-# myConnection = psycopg2.connect( host=hostname, user=username, password=password, dbname=dbname )
-# for g in parsed["fullgameschedule"]["gameentry"]:
-#     (away,home) = g["awayTeam"], g["homeTeam"]
-#     (awayAbbv,homeAbbv) = (away["Abbreviation"], home["Abbreviation"])
-#     dateX = g["date"].replace("-", "")
-#     gameid=f"{dateX}-{awayAbbv}-{homeAbbv}"
-#     print ( g["date"], g["time"],  away["Name"],  home["Name"], gameid)
-    
-
-# myConnection.close()
-# print ("dog closed")
-
-
-
-        
