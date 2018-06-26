@@ -1,0 +1,45 @@
+Starting with "Scratchpage" as a template
+
+Try the tutorial at https://davidwalsh.name/demo/css-sprites.php
+again, modifying the pages.  This is an all-css technique.
+
+Take one of your own pictures, edit it in gimp or some other
+tool to reduce it to greyscale, and make it that when your mouse
+goes over the picture, it changes colors.
+
+It's probably vital to this technique that the photo be a link, because
+I don't know if an <img> tag on itself has any property like
+"onHover".  But there is a simpler class that does buttons which
+does.
+
+Here is a demo about making buttons change color:
+https://www.w3schools.com/howto/howto_css_transition_hover.asp
+
+Make some buttons on a web page that change color like that.
+
+Then read this one:
+
+https://www.w3schools.com/howto/howto_js_snackbar.asp
+
+And finally, combine them, make a couple buttons that have "snack bar"
+messages and also turn colors when you move over them.
+
+Browse thru the effects on the sidebar of those pages.  Try out
+any that interest you.  
+
+Search google for html tables/table css styling, and use a table
+to set up a 9 inning home/away table with css.
+
+Make a new webpage called "innings.html" in the  same directory
+as index.html.  Use the same style sheet in the <head> element,
+or make a new stylesheet (e.g. innings.css) as you prefer; but
+if you make a new one, keep it in the css directory.
+
+Once you have it done, commit the new web page to the homework
+repository.  (read how to do it with git commmand line tool and run
+git from ubuntu).  Update the css, or add your new css file.
+
+
+
+
+
