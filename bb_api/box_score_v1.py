@@ -9,7 +9,8 @@ import psycopg2
 
 
 def getpwd():
-    with open("/tmp/bbpwd.txt") as secretfile:
+       with open("/mnt/c/tmp/bbpwd.txt")
+ as secretfile:
         p=secretfile.readline().strip()
     return  p
 
