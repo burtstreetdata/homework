@@ -1,0 +1,59 @@
+June 28
+
+GIT
+
+read this quiz -- you won't know the answer to most, maybe not any, of
+the questions -- focus on paying attention to the terminology, the
+questions are using the correct git terminology
+
+https://niksilver.com/2013/08/20/git-quiz/
+
+Read thru the first 3 pages of
+
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+(section 2.1, 2.2, and 2.3), fairly carefully.  You can/should create
+repositories on your computer to follow along with some of the
+commands.  When you're done, you can delete the repositories/directories
+they are in.
+
+Then look at the quiz again, see if any of  hte questions that
+didn't make sense before now do.
+
+
+-------------------
+
+BOOTSTRAP
+
+Make a new directory under /mnt/c/tmp with a three- or four-character
+name that's easy to type, such as "poot", "tent", "mask", "abc", etc.
+
+Start doing the bootstrap toot at:
+
+      https://www.w3schools.com/bootstrap/default.asp
+
+When it talks about "Downloading Bootstrap", you don't have to do that,
+you'll use "Bootstrap CDN"
+
+Work thru the first two pages of the tutorial, then skim the
+third page (Bootstrap grids).  Create web pages in the new
+directory you created
+
+Basically, you'll just be putting  some stuff (bootstrap/jquery
+and .css referernces) in the <HEAD> part of a document.
+
+We can deploy it to the internet tonight and look at it on the phone.
+Or if you want to try on your own, here  are all the notes I kept
+about uploading.  If you try it, don't worry about hitting  error messages,
+read them and try to see  what  they mean, google them if they don't
+make sense, that's completely normal when doing  this stuff:
+
+Start the gcloud shell from start menu
+
+cd into your website directory
+
+Run this command:
+
+
+	gcloud compute scp index.js burtstreetdata@turkey:/srv/www/turkey/index.js
+
+
