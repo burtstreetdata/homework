@@ -1,0 +1,22 @@
+July 2
+
+Go to this site here:
+
+
+https://www.davis.k12.ut.us/cms/lib/UT01001306/Centricity/Domain/6315/Grade7FullTest.pdf
+
+Do problems  13-26
+
+----
+
+Computer
+
+Make some changes to the page we uploaded to wings.owlcookfoul.com/fish,
+and  re-upload them there. Just add some text about how to earn money
+selling older meat products at minor league parks or something similar.
+
+Continue to work on the  bootstrap tutorial, go at your own pace, and
+add some different features.
+
+Try to add a separate page to wings, with a link from fish.html to your
+new page.  
