@@ -1,0 +1,30 @@
+July 3
+
+Grade the problems you did last night.  There are at least two
+mistakes where you can tell your answer is wrong by just reading the
+problem, without doing a calculation. Focus on what they are  asking
+for, not just the  numbers they state in the problem.  One you  skipped
+
+
+"Simple Interest" we never talked about -- that is what  you  would
+pay if you  didn't pay interest on interest.  So the  answer on that
+one (4 *  (28000 * .0541)).  Do that  calculation (fine to  use
+calculator or  internet).  Real interest is  always "compound" as far
+as a I know -- they  say "16.99  % per year" but  they  divide 16.99
+by 365, charge that amount every day, on your whole balance.  So  every
+day, they charge interest on all  the interest you've  paid so far.
+
+
+Try again to  publish a couple pages  linked  together using gcloud:
+
+Start  gcloud shell, "cd" to  whatever directory your html files are
+in
+
+run:
+
+	gcloud auth login burtstreetdata
+
+run:
+
+	 gcloud compute scp filex.html burtstreetdata@turkey:/srv/www/turkey/filex.html
+	
