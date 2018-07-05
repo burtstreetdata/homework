@@ -1,0 +1,17 @@
+July 5
+
+
+https://www.davis.k12.ut.us/cms/lib/UT01001306/Centricity/Domain/6315/Grade7FullTest.pdf
+
+Do problems 27-36
+
+---  For web page
+
+Make a new file called scoreboard.html
+
+Using bootstrap, make a table representing a baseball 9-inning
+scoreboard.  You can refer to the w3schools tutorial, or anything else
+you find.  One site that shows a bunch of different examples of tables
+is
+
+      https://bootsnipp.com/tags/table
