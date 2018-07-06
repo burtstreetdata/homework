@@ -1,0 +1,30 @@
+July 6
+
+
+Make a   new  web page -- start by creating  c:/tmp/brewers/
+
+Make an index.html in the folder
+Make a file called about.html
+Make files called batters.html, pitchers.html, fans.html, mascot.html, stadium.html
+make 3 subfolders: css, js, and images
+Put  a couple pictures in images
+Create css/site.css, and put some rules  in it -- any dumb css from
+  the tutorial is fine
+Put some content in the  index.html and about.html pages, and
+put links between each other (so you can click from index.html to
+about.html, and vice versa).  Add small blurbs of content in each  of
+the other pages, and put some links from the index page  to them, put
+links  back to the index page of the other pages.
+
+In  each  html page, have the "rel" link to the style sheet.
+
+
+Put <img> tags in both  pages using some of the pictures
+
+You can copy  from your existing sites.  Run your web server software,
+and browse to http://localhost/brewers
+
+
+
+
+
