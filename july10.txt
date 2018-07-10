@@ -1,0 +1,51 @@
+July 6
+
+
+Make a separate file in your brewers pages, in the "js" folder,
+named "brewers.js".  You can leave it empty for now.
+
+Then add this line, after the jquery </script> end tag
+
+     <script src="./brewers.js"></script>
+
+
+That will load your local file, and you can define new functions
+in breweres.js.
+
+Reload your page and look in the browser debug console, there shouldn't
+be any errors.
+
+Now put in some junk to brewers.js, like type "brewers are champs"
+
+Reload the page, and in the web tools you should see an error about
+not being able to parse that.
+
+Now, you can write javascript in brewers.js, which can use jquery
+functions.
+
+Now, delete teh junk, and make a function called turnItRed which selects
+<P> element on your page witch css id of "changeme", and makes the text
+red.
+
+And make another function, called "noBraun" that finds an <img> tag with
+id of "braun" and makes it not visible.
+
+Search on the web for how to do those things, you'll wade thru lots of
+irrelevant examples.  If you read about something else that sounds interesting,
+try it.
+
+Make your existing button call "turnItRed()" when it is clicked
+
+Make your other button call "noBraun" when it is clicked.
+
+Add an ID of "braun" to the img tag on your page.
+
+When you click the "noBraun" button it should make the picture disappear
+(it will come back on page reload), and when you click turnItRed it should
+make the  paragraph with ID of "changeme" turn red.
+
+
+
+
+
+
