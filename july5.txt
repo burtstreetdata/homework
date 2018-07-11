@@ -1,17 +1,15 @@
-July 5
+July 11
 
 
 https://www.davis.k12.ut.us/cms/lib/UT01001306/Centricity/Domain/6315/Grade7FullTest.pdf
 
-Do problems 27-36
+Do problems 37-43
 
----  For web page
+----
 
-Make a new file called scoreboard.html
-
-Using bootstrap, make a table representing a baseball 9-inning
-scoreboard.  You can refer to the w3schools tutorial, or anything else
-you find.  One site that shows a bunch of different examples of tables
-is
-
-      https://bootsnipp.com/tags/table
+We will work on making an "image slider".  For now, search for "make a
+custom image slider" and look at examples of what people do.  Look
+thru some of the code to see get a feel for how much css, images,
+javascript, and html have to bee in coordination for one dumb little
+visual effect.  You don't have to do anything, but if you want to try
+copying code from one of the toots in, that's fine.
