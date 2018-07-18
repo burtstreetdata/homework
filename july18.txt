@@ -11,20 +11,33 @@ a list of pictures and function it should use to do transition effect
     populate_carousel(brewersPics, left_swipe)
 
 
-That function  "calls back" to  left_swipe.
+That function would "call back" to  left_swipe.
+
+In javascript, it's common to also write a function just for the purpose
+of calling back, and never give that function a name.  So  you see code
+like this all the time
+
+     populate_carousel(pics, function() {
+        left_pic.fade(20);
+        rigt_pic.materialize(20);
+        }
+     }
+
 
 Google for "simple explanation of callbacks" or similar language and
 read thru some examples.  Callbacks are fundamental to making web pages
 that  don't have to reload the full page all the time.
 
 Also read about "javascript ajax" which is the same stuff from a different
-perspective.
+perspective.  Look below at the function definition for "slider"  (search
+for "function slider". We'll concentrate on that today.
 
 ----------------------
 
 
 2.  Review below, this was Monday assignment.  Make sure you have 5 pictures
-all the  same size of brewers:
+all the  same size of brewers.  There are a few callbacks here, the most
+striking is in the call to animate
 
 
     Gather 5 or more pictures of brewers.  Using paint, or gimp, or any online tool you want,
