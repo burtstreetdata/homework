@@ -1,0 +1,15 @@
+July 11
+
+
+https://www.davis.k12.ut.us/cms/lib/UT01001306/Centricity/Domain/6315/Grade7FullTest.pdf
+
+Do problems 37-43
+
+----
+
+We will work on making an "image slider".  For now, search for "make a
+custom image slider" and look at examples of what people do.  Look
+thru some of the code to see get a feel for how much css, images,
+javascript, and html have to bee in coordination for one dumb little
+visual effect.  You don't have to do anything, but if you want to try
+copying code from one of the toots in, that's fine.

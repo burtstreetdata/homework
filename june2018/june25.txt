@@ -1,0 +1,68 @@
+Get the repository "scratchPage" from our git site onto your computer, have
+it  land in c:\tmp\scratchPage.  From Ubuntu, that  directory is called
+/mnt/c/tmp, and you want  to make /mnt/c/tmp/scratchPage
+
+First, try this in ubuntu
+
+cd  /mnt/c/tmp
+git clone https://github.com/burtstreetdata/scratchPage.git
+
+if that works, you'll  have them in c:\tmp\scratchPage.git
+
+--------------  if that  doesn't work, figure something out from
+git desktop or the github website, get  the project on your
+computer.   In the long run the unix command  line one is easiest
+to work with.
+
+
+You'll notice that the javascript, images, and css are each in
+their own directory.
+
+Since your web browser points at c:\tmp\, you will have to
+browse to "localhost:/scratchPage/" -- that will make it look
+from c:\tmp\scratchPage\index.html
+
+The images aren't in the git repository, download any three
+images, put them in c:\tmp\scratchPage\images\, give them names
+that match the index.html file.
+
+So that page is an example of how javascript and css work.  Try
+the tutorial at https://davidwalsh.name/demo/css-sprites.php
+again, modifying the pages
+
+-----
+
+Get from github the "extra" assignment from Friday.  In any kind
+of web page, play around with creating an "innings" scoreboard that
+looks attractive -- play with borders, padding, fonts, colors.
+You can search the web and see if there are gui css layout designers,
+feel  free to try them out, either install on your comuter or they
+might run online.
+
+-----
+
+Not Math, but:
+
+Split the megablocks however you like.  Get a bunch pictures, either
+on phone or on camera is fine.  I recommend making the pictures
+different -- in one, build a tower, in one sort them by colors,
+just make sure it's easy for us to tell what "batch" of blocks
+each picture is showing.  As illogical as it is, things will sell
+better with more pictures, and you can do things like show the
+different block sizes next to a quarter, you can show a picture
+of 5 of them being weighed on a scale -- quirky makes people remember
+the post.
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+

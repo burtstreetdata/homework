@@ -1,0 +1,68 @@
+I think last night was close, the problem in that in the url, you
+have  to have the relative path to the image, RELATIVE TO THE STYLESHEET.
+
+Change the .css sheet like this:
+
+	background-image:url(../images/dw-logo-sprite.jpg);
+
+That  ".." means "next level up", so it's getting the file in the
+images "sibling" subdirectory of the css directory.
+
+That worked on mine, if it's still not working on yours we'll look
+for difference tonight
+
+Choose any of these items below, do as much as you want.
+
+ONE
+
+Take one of your own pictures, edit it in gimp or some other tool to
+reduce it to greyscale, save it as a jpeg.  Then, to use his
+technique, you have to make a single jpg that has the two images side
+by side -- in gimp, you'd create a new image, make the canvas width
+twice the original picture, and same height.  Copy in the regular and
+grayscale pictures as layers, arrange them, export the jpg, put it
+in your images directory, and adapt the sizes/url of his css to match
+yours.
+
+TWO
+
+In homework repository there is a subdirectory called bbdata.  copy the
+scripts to your disk.  Use python from unix (or do activity three and use from windows).
+
+From unix:
+   $ cd /mnt/c/whereveryouputpythonfiles
+   $ python box_score_v1.py
+
+You need the secretfile (that has the password) where python can find
+it, the script says
+    	with open("/tmp/bbpwd.txt") as secretfile:
+
+If I had you put that in c:\tmp, and you're running from UNIX, you'd
+change that part of the script to say 
+
+       with open("/mnt/c/tmp/bbpwd.txt")
+
+If you get the script to work, look around at https://www.mysportsfeeds.com/,
+the MLB api has a ton of other stats you can pull down.  See what ones are
+
+
+THREE
+
+Download/setup free version of pycharm, it's an IDE for python.
+
+
+FOUR
+
+Use html tables and css to create a baseball scoreboard (search the internet
+for ideas)
+
+
+FIVE
+
+Look at what's available on mysportsfeeds.com and identify stats that
+what would be relevant to greater/lesser bumdom page.  We can get
+live data with a three minute lag.
+
+SIX
+
+Listen & read the news at RFI facile

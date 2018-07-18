@@ -1,0 +1,38 @@
+Create a new folder under tmp, tmp/css, call it site.css
+
+In that, put an external style sheet.
+
+Change the <link....>
+       to     <link rel="stylesheet" href="./css/site.css">
+
+Work thru the examples on quackit, make sticky things, change them
+from left to right, etc.  You can rush thru it but try everything once.
+
+
+https://www.quackit.com/css/tutorial/
+
+Keep your css in a separate stylesheet (not inline/imbedded, like the examples)
+
+
+Upload your site.css to github, in the homework repository.  You can
+upload multiple versions as you go along -- with git, each time you
+upload it, that version is preserved, but the most recent version is
+the default one.   -- If you get stuck uploading it to homework repository,
+don't worry about it, we'll get it tonight, give up after 8 minutes of
+trying.
+
+------
+
+
+Now, follow this tutorial for sprites.  This is something you'd likely
+want to use in greater/lesser bumdom.
+
+https://davidwalsh.name/css-sprites
+
+Make an identical or similar picture swapper.
+
+Then do a search for "sprite animation", find some example you'd
+like to learn. 
+
+Also search for  "javascript hit testing tutorial" and see if there's
+anything interesting you'd like to learn

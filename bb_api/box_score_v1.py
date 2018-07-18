@@ -1,18 +1,15 @@
-#!/usr/bin/python
 
 
 import base64
 import requests
 import json
-import psycopg2
 
 
 
 def getpwd():
-       with open("/mnt/c/tmp/bbpwd.txt")
- as secretfile:
+       with open("/mnt/c/tmp/bbpwd.txt") as secretfile:
         p=secretfile.readline().strip()
-    return  p
+       return  p
 
     
 url='https://api.mysportsfeeds.com/v1.2/pull/mlb/2018-regular/game_boxscore.json'
@@ -50,4 +47,5 @@ innings = parsed["gameboxscore"]["inningSummary"]["inning"]
 i=0
 for inning in innings:
     print (f"There's {inning['awayScore']} for {inning['@number']} and home gets {inning['homeScore']}")
+
 
