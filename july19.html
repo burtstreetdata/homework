@@ -1,0 +1,52 @@
+July 19
+
+
+Now you have your .css in a file, and you've linked to it.
+
+Your gave script is in a file, but you haven't linked to it yet.
+You have to give the correct filename in a script tag, if it is
+brewers.js, in subdirectory js, you'd put this in index.html, just before
+the </body> end-of-body tag:
+
+ <script src="./js/brewers.js"></script>
+
+
+ In the javascript file, at the end, cut this part:
+       window.onload = init_slider;
+
+ and on your index.html, just after the script mentioned above, before </body> tag, put in
+
+
+<script>window.onload = init_slider;</script>
+
+That means that window is loaded, it will call a function named
+"init_slider".  "window" is an object, "onload" is a property/member
+variable.  The function it calls, init_slider, is defined in the
+file that will be loaded by the first script line.
+
+Now your page probably is doing something with the pictures when it
+loads but it doesn't look right.
+
+If it's not doing anything, go to developer tools, console, see if it
+has any error message and if you can figure it out.
+
+If it's doing something but looks funny:
+
+You have to set the container .css to be correct.  If your picture is
+250 x 275, you have to make the .css file say the width is 290 -- that
+is the size of the image plus 2 * the size of the padding -- look at
+Booers.css -- width is what you have to change.  Mine looks like this
+because my picture is 109 wide and 82 tall:
+
+.container{
+    width:149px;
+    height:122px;
+    padding:20px;
+    border:1px red;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: black; 
+}
+
+
