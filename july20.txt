@@ -1,0 +1,94 @@
+July 20
+
+Read all 3 parts before  starting, and do in whatever order you
+want.
+
+
+--------------------------------------------------------------------------------
+
+Activity 1:
+
+Goal is to make a version of the page you just made, with brewers
+sliding around.  In the new version, they don't automatically slide,
+and we can pick them with a menu.  You won't do that today, but we'll
+set up a new page to experiment on.
+
+First, copy the page that has the sliding brewers to a new html
+page.  I think yours is index.html, maybe it is brewers.html.
+
+Whatever it is, copy it and make the copy be named "brewerbios.html"
+
+now you should be able to browse to localhost://brewerbios.html
+and it should look exactly the same.  Check on the web how to give it
+a greay or tan or some other  pale color background, so it looks
+different.
+
+Now make  a copy of your javascript file, in the js directory,
+and call it newslide.js
+
+Change the brewerbios webpage to use newslide.js.
+
+Still, brewerbios.html should act exactly the same as the one you made
+yesterday.
+
+Now, break it: on brewerbios.html, remove the  javascript that says
+"window.onload=init_slider"
+
+Make a button on the web page, anywhere, that says "SLIDE, BREWER" and
+calls a function named slide_left
+
+In the newslide.js page, define a new function called slide_left that
+pops up a messagebox  that says "slide_left called" --- that is called
+a "stub", when you write a function to make sure the "wiring" is right,
+but don't want  to write the function yet.
+
+----
+
+At this point, you should have a new page, brewerbios.html, that shows
+just one picture, and doesn't have any animation.  It has a "stub" button
+on it that doesn't do anything useful.  Your original page should still
+work as it did beforel, with the animation.
+
+This if you want for today, and go on to Number 2 (heh).
+
+I don't know how to do the next step, so you can stop if  you want,
+or research yourself.  
+
+    I want to make the slide_left button go to the next image.  I think
+    the key code change is in the slider() function: you see that the
+    dictionary item it creates with the key "callback" is a function
+    that calls slider() again.  If we take that out, simply doesn't do
+    anything when "currentImage < imageNumber-1" is true, that might
+    be the only code change needed.
+
+    Then we'd put the "window.onload=init_slider" back in to
+    brewerbios.html, so that the system gets set up, and change the slide_left
+    button to call "slider()" instead  of
+
+--------------------------------------------------------------------------------
+
+Question 2:  Why, in window.onload, does "init_slider" not have parens
+after it?  But if we want  to call a function, we call it like "init_slider()"?
+
+
+--------------------------------------------------------------------------------
+
+
+Number 3:  see if you can publish all the html, javascript, and
+css for brewers to a git repository, either  make a new  one or an existing one.
+Use any tool, the deskptop gui client or command line.  You can use
+gitbash or ubuntu if you decide not to  use the "GitHub Desktop" tool.
+
+It's best if you don't publish the images, but no catastrophe if
+you do, if you can't figure out how to exclude them, don't worry about it.
+
+As always, don't worry about messing anything up, git makes it impossible
+to accidentally permanently overwrite anything that's already in a
+repository.  (it's possible to overwrite antyhing that's not checked
+in though, as I blunderously reminded myself a couple nights ago)
+
+
+
+
+
+
