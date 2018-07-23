@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link href="css/Booers.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <p> Fudger </p>
+<a href="about.html"> Click to see animal equivalent of the picture above</a>
+<img src="images/RyanBraun.jpg" width = "120" height= "80">
+<p id="changeme"> Ryan braun is a big gobbler </p>
+<button type="button" onclick="document.getElementById('changeme').style.color = 'red'">
+Red Text</button>
+<div class="container">
+    <div class="image-slider-wrapper">
+        <ul id="image_slider">
+            <li><img src="images/Brewers19.jpg" width = "120" height= "80"></li>
+            <li><img src="images/Brewers15.jpg" width = "120" height= "80"></li>
+            <li><img src="images/Brewers41.jpg" width = "120" height= "80"></li>
+            <li><img src="images/Brewers46.jpg" width = "120" height= "80"></li>
+            <li><img src="images/Brewers20.jpg" width = "120" height= "80"></li>
+            
+        </ul> 
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+ <script src="./js/brewers.js"></script> 
+<script src="./brewers.js"></script>
+<script>window.onload = init_slider;</script>
+</body>
+</html>
