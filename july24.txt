@@ -1,0 +1,30 @@
+July 24
+
+Do problems 13-24 on
+
+https://www.education.ne.gov/wp-content/uploads/2017/07/NEG8MathPTPaper.12.06.10.pdf
+
+I think you'll  find most of it pretty easy.
+
+--- Practice
+
+Make a new folder under /tmp called "chicken", with a javascript
+folder under it, and an images folder also.  Don't need a css folder
+for this.
+
+Get two pictures of chickens, and put them in images.
+
+Make index.html show one chicken.
+
+Write a javascript function that changes
+the chicken picture to the first image, and a second javascipt
+fuction that changes the picture to the second image.
+
+Put a couple buttons on the web page, "see chicken 1" and "see chicken 2"
+that call the functions, so you can click a button and see the differnt
+chicken.
+
+Here's a stackoverflow article with several approaches, anything
+that works is fine:
+
+https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
