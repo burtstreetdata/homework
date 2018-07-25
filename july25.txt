@@ -1,0 +1,72 @@
+July 25
+
+In the big black book, Javascript and Jquery, skim p. 44-50, which is the
+end of chapter 1, and covers stuff that you are already familiar with.
+
+Along with working on the following exercise, Read/skim chapter 2.  
+Start by reading the example at the end, on page 82 and 83.  Apply what
+they have to do this assignment:
+
+Your assignment will be to make a page that has two paragraphs,
+with css id of "score" and "sentiment".  Both paragraphs should be
+empty, displaying no text or placeholder text.
+
+In a javascript file, make a function that populates the paragraphs.
+
+It will have these variables
+
+otherteamname
+otherteamscore
+cubscore
+
+Set them to whatever you like, e.g., Indians, 4, and 8.
+
+
+When the function runs, the paragraphs get filled in with
+
+   Yesterday's score: Cubs 8 Indians 4
+
+   Yay
+
+or
+
+   Yesterday's Score: Cub 0 Brewers 2
+
+   Boo
+
+Make your index.html web page do that.  (To make the program say
+anything different, you have to change the source code of the
+javascript file, in "real life" it would read from a database or web
+service.)
+
+In chapter 2 of black book, they don't show you how to use an "if"
+statement, but I think you already know or can check online or in
+either book. You'll probably want an "if" to determine whether the
+sentiment paragraph should say "Yay" or "Boo".
+
+
+----
+
+Look thru the books
+
+The first 300 pages of the black book are about javascript basics, it doesn't
+get to jquery until then.
+
+The Rhino "learning javascript" book is a lot of the same material
+in a less flashy style, and goes on to more advanced material.
+
+
+Both of them dwell on basics for a long time, because there are a few
+important basics (looping, data types, calling functions, utility text
+functions) you have to be familiar with to do anything, so you mgiht find
+them dull like "Learn python the hard way," but you just have to work
+thru it; it has huge overlap with C#, python, and most other commonly-used
+languages, so there's some extra payoff, too.
+
+
+
+
+
+
+
+
