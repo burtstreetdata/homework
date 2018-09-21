@@ -1,0 +1,32 @@
+September 21
+
+Memorize the quadradic formula
+
+------
+
+In your notebbook, I did an exampe plugging in the values for
+   1/3 x^2  - 4 x - 8 = 0
+
+Search google for "desmos Quadratic formula graph" and you can
+enter in that formula and it will show you the graph.  You can see
+it intercepts x axis (x == 0) at around 13 and around -2.
+
+
+
+The quadratic formua dosn't work when b^2 - 4ac is less than zero.
+So if a or c (but not both) is negative, it always works, beccause
+you subtract a negative, and can always get the square root.
+
+
+-------------
+
+Solve the equation below using th quadratic formula.  You can
+use a caculator to get square roots and otherwise reduce tedium.
+
+     2 x^2  + 8x + 5 = 0   ("two x squared plus eight x plus 5")
+
+-------------
+
+
+Memorize the quadratic formula
+
