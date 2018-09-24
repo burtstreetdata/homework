@@ -17,8 +17,17 @@ since both are equal to y, and that gives you:
 
 	2x -4  = 3x -8
 
-We'll go over those and I'll give you more similar questions tonight,
-but look at problem 8 and 9 on the test again.
+We'll go over those and I'll give you more similar questions tonight.
+
+Read thru these examples
+
+https://www.mathplanet.com/education/algebra-2/how-to-solve-system-of-linear-equations/solving-systems-of-equations-in-two-variables
+
+
+and try  problem 8 and 9 on the test again.  8 is super easy and 9 is
+a trick one.
+
+
 
 -----------
 
