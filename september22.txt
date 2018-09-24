@@ -1,0 +1,107 @@
+Sept 22
+
+Reviewing 4th quareter exam review (digital copy at
+http://www.charleston.k12.il.us/cms/Teachers/math/PreAlgebra/RVQ4.pdf)
+
+----------
+
+In the review exam, you didn't get the problems about systems of equations.
+
+E.g.
+	y = 2x  - 4
+	y  = 3x - 8
+
+From that, you're supposed to solve for x.   From the question above,
+you can see that the two expressions with x are equal to each other,
+since both are equal to y, and that gives you:
+
+	2x -4  = 3x -8
+
+We'll go over those and I'll give you more similar questions tonight,
+but look at problem 8 and 9 on the test again.
+
+-----------
+
+Problems 14-16 are all pythagorean theoryom problems.  a-squared-plus-
+b-squared-equals-c-squared.  So on problem 14 --
+
+			        x^2 + 9^2 = 15^2
+
+Problem 16 relies on you making a sketch which will involve a right
+triangle, figure out which is c, then calculate length of c because
+the sketch will whow you a and b
+
+---------
+
+
+Do the multiple choice questions below:
+
+
+1. (15 + 32)(56 – 39) =
+a. 142
+b. 799
+c. 4,465
+d. 30
+
+2. What is the value of 65,715 /  4 rounded to the nearest thousand?
+
+a. 20,000
+b. 16,000
+c. 16,428
+d. 16,429
+
+3. Estimate the value of 7,404 / 74.
+a. 1
+b. 10
+c. 100
+d. 1,000
+
+
+4. 12(84 – 5) – (3 x 54) =
+
+a. 786
+b. 796
+c. 841
+d. 54,000
+
+5. Which of the following expressions is equal to 60,802?
+a. 600 + 80 + 2
+b. 6,000 + 800 + 2
+c. 60,000 + 80 + 2
+d. 60,000 + 800 + 2
+
+6. Which of the following whole numbers is divisible by both 7 and 8?
+a. 42
+b. 78
+c. 112
+d. 128
+
+7. What is the estimated product when both 162 and 849 are rounded to
+the nearest hundred and then multiplied?
+
+a. 160,000
+b. 180,000
+c. 16,000
+d. 80,000
+
+8. Which of the following choices is equivalent to 5 x 5 x 5?
+a. 3 5
+b. 10 5
+c. 15
+d. 125
+
+9. Which of the following choices is equivalent to 3 x 5 ?
+a. 8
+b. 15
+c. 243
+d. 125
+
+10. The whole number p is greater than 0, a multiple of 6, and a
+factor of 180. How many possibilities are there for the value of p?
+
+a. 7
+b. 8
+c. 9
+d. 10
+e. 11
+
