@@ -1,0 +1,48 @@
+1 Graphing
+
+a.  Draw a graph of a line with slope  3 that has a negative y
+intercept.   Write the equation of the line
+
+
+b.  Change the following two equations to "y = mx+b" format and graph them
+both on one set of coordinats, so they will intercept:
+
+       	 3y - 6 = x
+	 8y - 2x = 24
+
+c.  At what point do the two lines in b intercept?  You can use a
+calculator, you don't have to use the graph, but the answer should
+look plausible when related to the graph
+
+
+d.  Suppose we call the line with the smaller slope "the less steep
+line" or LSL, and the other one "the more steep line" or MSL.  If LSL
+became a little steeper, but the lines still intercept, would the x
+coordinate of the intercept point be greater or smaller?  Suppose on
+the other hand the MSL became a little steeper -- would the x
+coordinate of the intercept point be greater or smaller?
+
+2.  Word problems
+
+Make a system of equations out of both the word problems below and
+solve
+
+a) Kristin spent $131 on shirts.  Fancy shirts cost $28 and plain
+shirts cost $15.  If she bought a total of 7 then how many of each
+kind did she buy?  (Hint: you should have two variables, one is
+number of fancy shirts, one is number of plain shirts. You can get
+two different equations from the facts given, those two equations
+make your system of equations)
+
+
+b) There are 13 animals in the barn.  Some are chickens and some are
+pigs.  There are 40 legs in all.  How many of each animal are there?
+(Hint, as above, you should have two variables and two different
+equations)
+
+c) The drama club sells hot chocolate and coffee at the high school
+football games.  At the last game, they had sales of $200.  They need
+to keep track of how many of each type drink was sold so that they can
+make predictions for future sales.  Monica knows that they used 275
+cups that night.  If the hot chocolate sells for 75 cents and coffee
+sells for 50 cents, how much of each type of drink were sold?
