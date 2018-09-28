@@ -1,0 +1,23 @@
+1.  Graphing a curve using an appropriate scale
+
+You can use a calculator and you're welcome to try any online graph
+programs to test different scales.
+
+
+Graph the curve y = x*x from x=2.0 to x=3.0.  For the x axis, make
+each tick on the graph paper = 0.1.  For the y axis, make the scale whatever
+is convenient, e.g., you can make each tick represent .5 or .2 or .25.
+The y axis only has to represent the range 4.0 to 9.0 (because 2 squared
+is 4.0 and 3 squared is 9.0).  Graph 11 points - 2.0, 2.1, 2.2,
+2.3 . . . 3.0.
+
+
+2.  Now do the same for the range x = -0.5 to x = 0.5, with each tick
+on the x axis representing 0.1.  Again, use whatever scale is
+convenient for y, but it only has to cover the range y = 0.0 thru y =
+0.25, so to give you easy room to plot, you should probably make each
+tick represent some small amount, less than .1.
+
+In Structure and Method, Page 415, do written exercies 1-4, solving by the
+graphing method -- see the examples on page 413-414 if it's unclear
+what that means
