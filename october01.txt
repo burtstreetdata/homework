@@ -1,0 +1,31 @@
+Graphing
+
+a.  Draw a graph of a line with slope  3/5 that has a negative y
+intercept.   Write the equation of the line
+
+
+b.  Change the following two equations to "y = mx+b" format and graph them
+both on one set of coordinats, so they will intercept:
+
+       	 y/2 - 1 = 1.5 x
+	 .5y - 1.2 x = 1
+
+c.  At what point do the two lines in b intercept?  You can use a
+calculator, you don't have to use the graph, but the answer should
+look plausible when related to the graph
+
+d.  Go to Desmos website and paste those formulas in, you should
+see the graph matches your answer.
+
+
+2.  Word problems
+
+Make a system of equations out of both the word problems below and
+solve
+
+A.  Ben took the most recent year that the cubs won the World Series
+and broke it into two two-digit numbers, a and b.  The sum of a was
+36 and the difference of b-a was 4.  What were the two number, and
+in which year did the coobs win the world series?
+
+
