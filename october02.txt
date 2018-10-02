@@ -1,0 +1,11 @@
+October 2
+
+DO problems 13-24 on page 419.
+
+Note, they want you to use theh substitution method (see page 418).
+That means, pik one equation, and solve it for one variable, than
+substitute the resulting expression for that variable.
+
+Check your answers by plugging the answer for both variables into
+both equations.  You may use a calculator/computer.  If you get any wrong,
+re-do them.
