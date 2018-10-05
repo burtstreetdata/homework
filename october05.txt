@@ -1,0 +1,31 @@
+October 5
+
+1.  Using a calculator/computer make a table of points for the formula below
+
+   3*(1-x^2)^2  - 2* (1-x^2)
+
+(you can see it formatted better at https://imgur.com/a/iecYkiV)
+
+Figure the values for these points:
+
+x = .75
+x = .77
+x = .79
+x = .81
+x = .83
+x = .85
+
+
+2.  Graph those points
+
+3.  Now go to https://www.desmos.com/ and see if you can get it to display the graph and confirm if your sketch matches pretty good.
+
+
+4. I want to get anaconda for python 3 on your PC.
+
+Open that anaconda window, and type "conda update anaconda" at the prompt
+
+It should give you some choices, if not, don't worry about it, we'll try later.
+
+If it looks like it will update you to anaconda for python 3, go ahead and
+run it -- i believe we set it up with python 2.
