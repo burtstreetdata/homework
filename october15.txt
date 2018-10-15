@@ -1,0 +1,28 @@
+
+October 15 (this is mostly a repeat from before sick week)
+
+1.  Using a calculator/computer make a table of points for the formula below
+
+   3*(1-x^2)^2  - 2* (1-x^2)
+
+(you can see it formatted better at https://imgur.com/a/iecYkiV)
+
+Figure the value of y for x these points, and write down the value of
+the pairs:
+
+
+x = .75
+x = .77
+x = .79
+x = .81
+x = .83
+x = .85
+
+
+2.  Graph those points on graph paper with pencil/pen
+
+3.  Now go to https://www.desmos.com/ and see if you can get it to display the graph and confirm if your sketch matches pretty good.
+
+
+4.  Try to run anaconda3 and see if you have it installed.  If you
+do, we'll use it to confirm the values you got in step 1.
