@@ -1,0 +1,60 @@
+October 16
+
+Look online at a graph of  y = x^2
+
+Think about the slope of the line.  As you said last night, it has
+infinitely many slopes -- in the case of this curve, there are no two
+places where it has the same slope.  Left of x=0, slope is negative,
+right of 0, it is positive.  Between about -1.5 and 1.5, the slopes
+are fairly shallow, on either side they rapidly become steep.
+
+To approximate the slope at any given point, say x = 3, we can
+calculuate the y coordinate of (x^2) and (x+d)^2, then figure
+out a slope by rise/run.
+
+If d = .001, then to approximate the slope where x = 3, we would
+look at two points:
+
+     point a:   x=3,      y = 3^2
+     point b:	x=3.001,  y = 3.001^2
+
+Then divide the difference of [(3.001)^2 - 9]  by .001 (that is, divide
+the rise by the run)
+
+PROBLEMS:
+
+1.  Using a calculator/computer, figure out the approximate slope at
+of the curve using these pairs values for x:
+
+   a.  3,  3.001
+   b.  0.5,  0.50001
+   c.  -2, -1.995
+   d.  45, 45.02
+
+Write down (or type in a spreadsheet) the values you get.
+
+For each pair, you have to figure square of both numbers.  Subtract the
+difference of the squares to get the rise.  Subtract the difference
+of the rises. Divide by the differene of the runs.
+
+------
+
+2.  Now, we want to write a function to do this.  Start up anaconda,
+and in a new cell begin definining a function
+
+    def slope(x1, x2):
+
+
+Try to write a function that squares both x and y, and returns the
+value of the differenc of the squares divided by the difference of
+x1 and x2.
+
+Look online for help if you get stuck, read about python functions,
+which doesn't necessarily have to involve anaconda.  However, if you
+see anything about "pandas" ignore that, that's a python library
+you aren't using.  For what you're doing now, it doesn't matter if you
+look at stuff about python 2 or python 3.
+
+3.  See if you can remember how to write a c# function to do this and
+show the result in a form.  (optional)
+
