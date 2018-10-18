@@ -1,0 +1,30 @@
+In the Structure/Method book,
+
+on page 429, do problems 5-10 (the word problems, not the ones
+on bottom of page).  These are likely to be solved most easily
+by addition-or-subtracction method, not the substitution method.
+(Described in preceding pages)
+
+But you can solve whichever way seems easier.
+
+
+
+Try this again:
+
+Out of problem 12, make a c# program.  Make a dialog box with
+4 inputs:  principal_1, principal_2 (those take money the
+amount invested) and InterestRate_1, InterestRate_2.  When
+values are entered, the program should give the interest per year.
+
+E.g., if you put
+
+      principal_1  100     interest_1  2
+      principal_2  50      interest_2  6
+
+
+It shoudd tell you you get $5 interest per year, by adding up
+
+    100 * .02 ($2) and
+    50 * .06 ($3)
+
+
