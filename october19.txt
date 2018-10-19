@@ -1,0 +1,12 @@
+In the Structure/Method book,
+
+y=mx+b review
+
+On page 368-369 do problems 4, 8, 12, 16, 24, 28, 32, 36, 40, 44 and 45
+
+
+--------------
+
+Flip thru the library book "Python for Data Analysis", just spend 10 minnutes
+or so looking thru it.  See if there are any parts of it that interest
+you.
