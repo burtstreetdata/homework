@@ -1,0 +1,12 @@
+Oct 29
+
+DO problems 1-12 on page 156.  If the answers are fractions, write
+them in mixed  number, reduced format -- e.g.,, not 14/6, instead
+2 1/3
+
+Go on Youtube for knowledgebale dan and unsubscribe from Youtube TV
+
+Run Anaconda-navigator and see if you can define a function that takes
+one argument, x, and returns 3x+5 -- name it "beets", so if you type
+"beets(5)" and hit run, it returns 20, if you type "beets(4) it
+returns 25, etc.
