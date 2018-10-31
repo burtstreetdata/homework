@@ -1,0 +1,13 @@
+October 31
+
+Do any 6 problems you can on page 79.  Your goal:  -- find x-axis intercepts.
+
+Use regular algebra to change the expression given to an equation
+equal to zero.  Factor.  Then you'll wind up, usually, with something
+like (8+3x)(2x-4) = 0, and have to SOLVE FOR X twice -- because
+x can be -8/3 or 2 in the example above.  Thos are the points where
+the curve crosses the x-axis -- where f(x) = 0.
+
+Plug the expressions (without =0) into desmos (or any other graphing
+calculator) and you'll see.
+
