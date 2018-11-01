@@ -1,0 +1,30 @@
+
+Part I
+
+On page 163 of workbook, do problems 1-8.
+
+This is systems of linear equations -- You can use either substitution
+or adding/subtracting equations.
+
+Check your answers in back of book and circle any in the workbook
+that you got wrong.
+
+Part II
+
+In python -- start Anaconda (you might want to do that before you do
+the workbook, Anaconda takes so long), and make a new workbook called
+"syseq".
+
+Write a function called "cows", that takes one argument, x, and
+returns (5x + 3)/6
+
+Write a second function, "horses", that takes one argument, x,
+and returns (2x + 7)/6
+
+I think the functions, horses and cows, correspond to the two
+equations in problem 1 from the workbook.  See if, when you give them
+both the value of x you got for the answer to problem 1, the two
+functions return the same value.
+
+
+
