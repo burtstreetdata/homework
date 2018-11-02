@@ -1,0 +1,37 @@
+Look at the graph on page 108-109 of Python for Data Science, and
+try typing in the commands to make it go.  If it doesn't work, don't
+worry about it, go on with below.
+
+-------
+
+The stuff above uses a lot of python syntax.  Go back and browse thru
+page 85-108.  Try typing in some of the examples, try your own
+variants, etc.  Lots of data analysis involves rows and columns of
+numbers, and the np.array gets used a lot.  As you read, do the below:
+
+Quiz:
+
+1.  Create an numpy array x, so that if you type print(x) it prints
+
+[[0 1]
+ [2 3]
+ [4 5]
+ [6 7]]
+
+2.  Use a "slice" operator on the array created above
+to make a new array, newx, such that if you run "print(newx)"
+you get
+        [[2 3]
+	 [4 5]]
+
+3.  Use the reshape command to make an aray from x, named
+flatx, such that "print (flatx)" returns:
+
+    [0 1 2 3 4 5 6 7]
+
+
+Finally, after you've read 85-108 and done problems above, skim
+thru the preceding chapter.  They give a quick review of some important
+parts of python.  Without a bunch of useless nonsense no one uses.
+
+
