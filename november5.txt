@@ -1,0 +1,44 @@
+On page 71 of the match drills book, do 1-3, 7-9 and 13-15 (total 9
+problems).  Last time you did problems similar to these, you forgot
+one major type of simplification.  If you wind up with something like
+
+    3x^2  = 4x
+
+You an divide both sides by x (so you'd have 3x = 4, and solve from
+there).
+
+
+
+
+Review the beginnings of the python for data science book, this is the
+same material as from Friday: browse thru page 85-108.  Try typing in
+some of the examples, try your own variants, etc.  Lots of data
+analysis involves rows and columns of numbers, and the np.array gets
+used a lot.  As you read, do the below:
+
+Quiz:
+
+1.  Create an numpy array x, so that if you type print(x) it prints
+
+[[0 1]
+ [2 3]
+ [4 5]
+ [6 7]]
+
+2.  Use a "slice" operator on the array created above
+to make a new array, newx, such that if you run "print(newx)"
+you get
+        [[2 3]
+	 [4 5]]
+
+3.  Use the reshape command to make an aray from x, named
+flatx, such that "print (flatx)" returns:
+
+    [0 1 2 3 4 5 6 7]
+
+
+Finally, after you've read 85-108 and done problems above, skim
+thru the preceding chapter.  They give a quick review of some important
+parts of python.  Without a bunch of useless nonsense no one uses.
+
+
