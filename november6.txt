@@ -1,0 +1,49 @@
+
+
+On page 163 of workbook, do problems 10-12 (3 problems).  Before you
+start, look in the back of the book to get the answers.  Show the
+steps necessary to get to the answers.  Tonight we'll pretend like
+I don't know how to solve them and you show me how one step at a time,
+for the two most tedious ones.
+
+On page 71 of the math drill book, do problems 10-12 (3 problems), same
+thing, look in the back first, then show the steps neccesary to get to
+the answer.
+
+
+Trig -- two problems.  
+
+Trig lovers' favorite circle is the unit circle and they like to make
+certain triangles in it where the hypotenuse is 1.
+
+There are only two combinations of other sides they like:
+
+a) square root of 2 over 2  being both non-hypoteneuse sides
+
+and
+
+b) one side being square root of 3 over 2 and the other side being
+square root of 1 over 2 (aka 1 over 2, aka 1/2)
+
+They like to say "a squared plus b squared equals c squared" and
+"the hypoteneuse of a right triangle is the square root of the sum
+of the squares of its other sides."
+
+
+Two two-part  problems:
+
+a.  Suppose you had a triangle where the two non-hypoteneuse sides
+were sqrt(3)/2 and 1/2.
+
+a1) what is the sum of  (sqrt(3)/2)^2  and (1/2)^2 ?
+a2) what is the sqrt of the answer you got for step a1 (hint: it is 1)
+
+
+a.  Suppose you had a triangle where the two non-hypoteneuse sides
+were both sqrt(2)/2
+
+b1) what is the sum of  (sqrt(2)/2)^2  and (sqrt(2)/2)^2
+b2) what is the sqrt of the answer you got for step b1 (hint: it is 1)
+
+"Vote early vote often for Darren McLaughlin"
+
