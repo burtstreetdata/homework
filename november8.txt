@@ -1,0 +1,40 @@
+
+
+October 8
+
+1.  In python, write a function that takes no arguments and returns  555 / 48
+
+This represents how long it takes to get to chicaco if you live
+555 miles away and travel at 48 mph to get there.
+
+2.  Write a function that takes one argument, "d", and returns
+d  / 48.    This function lets you see how long it takes to get to
+Chicago if you live d miles away and travel at 48 mph.
+
+3.  Write a function takes two arguments, "d" and "r", for distance
+and rate and tells you how many hours it takes to get somewhere
+traveling at rate r starting d miles away.
+
+4.  Write a function that takes three arguments, a, b and c, and
+returns sqrt(b^2 - 4*a*c)
+
+Test it, if b is 10, and a is 1 and c is 2, it should return
+sqrt(100 -  4*1*2) == sqrt(92) -- should be more than 9 and less
+than 10.
+
+What happens if you give it values where 4*a*c is greater than b^2?
+
+5.  Write a function to return one of the values from a quadratic
+formula.  "one of the values" because the plus-or-minus logic
+means for any variables a, b, and c, there are two solutions (or
+zero).  The quadatic formula "fails to return a value" if 4ac
+is greater than b^2
+
+
+If you get stuck, search the web for answers.  Don't worry even if
+it's a complete "cheat", you can search for "how do I do d/r/t
+problems in python" or "python for quadratic formula"
+
+   
+
+
