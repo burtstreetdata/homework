@@ -1,0 +1,69 @@
+November 19
+
+
+We looked at a way to make a very simple graph, with one un-labeled
+line, for a set of x-y coordinates.
+
+First assignment:  memorize these steps, how to make  a simple
+graph
+
+      1.  import pyplot from matplotlib
+      2.  make two equal-length arrays with x & y coordinares
+      3.  call pyplot.plot() with the two arrays as arguments
+
+Copying from your notebook from last night make a graph of
+
+xs = [1,2,3,4,5,6]
+and
+ys = [10,11,8,9,9,10]
+
+It should make a line that goes up, then down, flattens out, and comes
+back up.
+
+Seond assignment:
+
+You don't need to be expert in python to use it for calculations
+and plotting -- you do have to have some organization, but you can
+work it out as you go with python notebook.  Working on plotting,
+there are three distinct technologies you are learning:
+      python syntax
+      using jupyter notebook
+      features of pyplot
+
+And all of that is distinct from "domain" knowledge -- that is, knowing
+about a topic like global warming, baseball stats, or collision
+safety to make intelligent guesses about what to graph -- what kind
+of data to gather in the first place.
+
+Then, there's a 4th item that is likely to come up which needs
+familiarity with other libraries: gathering data and getting it
+into a graphable format.
+
+So it will be clumsy to start.
+
+For introducction to Python, go to
+
+    https://cscircles.cemc.uwaterloo.ca/
+
+It looks like it might be a good, quick way to get familiar with
+python features.  I think the first couple pages are stuff you already
+know; then go on, work on it for 20 minutes or so.
+
+Third assignment:
+
+Make another graph using pyplot that has 5 data points and goes down
+from left to right, that is, represents a decline.
+
+Fourth assignment (thinking, no work product):
+
+Go to https://matplotlib.org/, click on "gallery" under the site logo
+and browse thru the various graphs they show.  Pick one or two that
+might be able to represent something in baseball or birding and we'll
+try to graphy it.  E.g., maybe "polar_bar_demo" could be used to show
+how well a batter or some batters hit(s) in different situations --
+"late innings behind by less than three, runners on base, less than 2
+out", etc.
+
+
+
+      
