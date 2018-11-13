@@ -1,4 +1,4 @@
-November 12
+First, this is a repeat of yesterday:
 
 
 We looked at a way to make a very simple graph, with one un-labeled
@@ -23,43 +23,23 @@ It should make a line that goes up, steeper and steeper as it goes.
 Seond assignment:
 
 
-Go back to: 
+Go back to the "Loop" section in part 7: 
 
     https://cscircles.cemc.uwaterloo.ca/
 
-Jump right to section 7, and work thru the examples.
+One of the things that comes up a lot in any programming
+language is looping thru all the members of lists, or looping
+til some condition turns true or false.
 
-Write a function that takes an array as an argument, and returns
-a new array where the values are the squares of the first argument.
+First, read all the questions on section 8, "Remix".  Don't
+try to do them yet.
 
-E.g. if you name your function "yankee", then if you type
+Make a new Python notebook, called "Loops7".  Come back and do all the
+examples on exercise 7, Loops (type the code into a jupyter notebook
+and run it, don't just cut and paste).  Just get them to run, and save
+what you try in the notebook if it doesn't work.
 
-     square_me = [2,3,6,10, -1]
-     i_am_square = yankee(square_me)
-
-Then i_am_square will have the values [4, 9, 36, 100, 1]
-
-3.  Graph the result of your function using pyplot using the
-steps above.  E.g., if you used the names above, run
-
-      
-     pyplot.plot(square_me, i_am_square)
-
-Try it both ways, that is, also run
-
-     pyplot.plot(i_am_square, square_me)
-
-4.  Browse in the red python Data Analysis book, the 
-chapter about pandas, that is, chapter 5.  Don't worry about
-understanding it all but see if you can follow along, type
-in some of the examples.
-
-When you start Anaconda Navigator, make sure the "Base" environment
-has pandas installed.  If it doesn't search for "pandas" in
-the Anaconda Navigator "search packages" and  install
-it.
-
-It's okay if you want to use the silver computer, I confirmed anaconda
-nav. will run under Danny account and it's got pandas
+Again, it's  okay if you want to use the silver computer with "Danny"
+account, it is faster for Anaconda Nav.
 
 
