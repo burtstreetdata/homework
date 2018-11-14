@@ -1,0 +1,33 @@
+Nov 14
+
+Using a text editor such as notepad++, Change the text file,
+c:\TMP\roster.txt, to add two new columns,batting average and
+position.  Add a few players and fill out some real or made
+up data.
+
+In python, import it into a dataframe.
+
+Make another text file, roster_dodgers.txt.  Change it to Dodgers
+names, averages, etc.
+
+Read it into a dataframe.
+
+--- The rest of this, you might not be able to complete
+
+Goal: Want to write a function that gets the name of every player
+on  a roster with a batting average greater than some certain amount.
+
+Google "looping thru pandas dataframe".
+
+Write a function that takes two arguments, battingAverage, and
+roster.  The "roster" argument will be one of the two dataframes
+you created above.  battingAverage is a minimum batting average.
+
+Make the function print the names of every player in the roster
+with a batting average over what was passed in.  
+
+Use the red-weasel python book, chapter 5, about pandas, and google,
+to figure out how to read lines of a dataframe and compare the batting
+average to the argument.
+
+
