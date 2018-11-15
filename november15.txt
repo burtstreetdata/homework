@@ -1,0 +1,21 @@
+Nov 15
+
+Load two dataframes, one for cubs and one for dodgers.
+
+Write a function that gets the name of every player on a roster with a
+batting average greater than .250 (or 250 if you entered them as numbers).
+
+Change the function to take an argument instead of being hard-coded
+to 250 (make it an argument)
+
+Make another function that prints out the name of every player who
+plays Catcher (or some other position in the cubs, then do it for the
+dodgers.
+
+Try to find a way to get a list of all the positions in a roster,
+e.g., if you only 4 people in a roster with two pitchers, one
+shortstop, and one ph, it would get an array like ['P', 'SS', 'PH']
+(however you spelled/abbreviated them).  It doesn't have to be an
+array.  You might google for "how to get all the values in a column
+of a dataframe".
+
