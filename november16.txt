@@ -1,0 +1,32 @@
+Nov 16:
+
+Make a roster dataframe that has multiple players for some
+position.
+
+Make an empty dictionary.
+
+Loop thru the dataframe, using a "for" or "while" loop,
+and poulate the dictionary with the name of the position
+and the highest batting average for that position found.
+
+E.g. if your rosster looked like
+
+Position     Bavg
+C	     220
+C	     235
+LF	     314
+RF	     232
+RF	     333
+C	     680
+
+Your dictionary should have
+
+C 680, RF 333, LF 314
+
+One  algorithm: for every row in the dataframe, if there isn't
+a dictionary entry for that position, get the row's Bavg and add it.
+If there is such  a key, get the row's Bavg, compare it to the value
+already in the dictionary, and if it's higher, add it.
+
+
+
