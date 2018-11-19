@@ -1,0 +1,47 @@
+Login to mysportsfeed; get the token
+
+Save the token in c:\api\msf_token.api
+
+
+--------------
+From github, download msf_api.py:
+
+1. make a directory called c:\msfbb
+2  cd into it
+run
+	git clone  https://github.com/burtstreetdata/mfsbb.git
+
+---------------
+
+
+Run gitbash:
+
+$ curl -X GET https://api.mysportsfeeds.com/v2.0/pull/mlb/2018-regular/team_gamelogs.json?team=CHC\&date=from-20180401-to-20180430\&stats=none -u TOKENHERE:MYSPORTSFEEDS --compressed
+
+That spits out all the games.  Hit up arrow and run it again, redirecting
+to a file
+
+$ curl -X GET https://api.mysportsfeeds.com/v2.0/pull/mlb/2018-regular/team_gamelogs.json?team=CHC\&date=from-20180401-to-20180430\&stats=none -u TOKENHERE:MYSPORTSFEEDS --compressed > c:\tmp\april.json.txt
+
+That gets the april schedule for the cubs into the file.  We'll use that,
+in turn, to pull up play-by-play for a game.
+
+---------------
+
+Code to print out a schedule
+
+import json
+
+with open( "c:/tmp/april.json.txt") as f :
+    games =json.load(f)
+
+for g in games["gamelogs"] :
+    msfid = g['game']['id']
+    if(g['game']['awayTeamAbbreviation']  == 'CHC') :
+        print("{}: at {}".format( g['game']['startTime'][0:10], g['game']['homeTeamAbbreviation']))
+    else :
+        print("{}: {} at Wrigley".format(g['game']['startTime'][0:10], g['game']['awayTeamAbbreviation']))
+
+--------------
+
+
