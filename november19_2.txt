@@ -1,0 +1,123 @@
+On sunday, you copied
+
+c:\mfsbb\msf_api.py
+
+From GitHub.  The directory has the wrong name because I named the
+repository wrong on GitHub.
+
+You copied the contents of that file into Jupyter and they wouldn't
+work -- the gave you a 400 error, which is a kind of "Not Found"
+
+The problem was that I had "regular" mispelled in the URL.  Open
+up your jupyter notebook, that has the bad code, and change "reqular"
+to "regular".  Then run it.  It won't do anything on the screen, but
+now if you look at
+
+    "/tmp/pbpx.json"
+
+It should have some size.
+
+----------------
+If that doesn't work, or any of the below doesn't work, do some self-study
+using the yellow "beginning python" book, or try to troubleshoot.  Read
+about "string interpolation" and "dictionary".
+--------------
+
+Now paste this into a cell and run it:
+
+    import json
+      with open(json_file,"r") as f:
+      pbp = json.load(f)
+
+Tha should assign all the play-by-play data fora  game into a variable
+called pbp -- you can examine the contents of the variable by typing "pbp"
+in a cell and running.
+
+if that's all working, run this:
+
+
+
+for b in pbp['atBats'] :
+    print("Next play")
+    i=0
+    for p in b['atBatPlay'] :
+        print ("next p")
+        if('batterUp' in p.keys()) :
+            pl = p['batterUp']['battingPlayer']
+            print ("{} {} {}".format(pl['firstName'], pl['lastName'], p['batterUp']['result']))
+        else:
+            i +=1
+
+And start reading thru the pbp data.  You see there are many "p" events
+for every batter up. (pbp is "play by play" so pitches, swings, throws,
+balks, etc. are all plays).
+
+I want to work toward writing a function that will give us for each
+player, how they hit under different circumstances, e.g., one-on,
+two-on, three-on, no-out, one-out, two-out, ahead, behind.  
+
+Assignment: change the code above so that it can also print out the
+firstBaseRunner value for each 'pitch'.
+
+
+
+
+
+
+
+
+
+--------
+
+
+
+From Sunday night:
+
+
+Login to mysportsfeed; get the token
+
+Save the token in c:\api\msf_token.api
+
+
+--------------
+From github, download msf_api.py:
+
+1. make a directory called c:\msfbb
+2  cd into it
+run
+	git clone  https://github.com/burtstreetdata/mfsbb.git
+
+---------------
+
+
+Run gitbash:
+
+$ curl -X GET https://api.mysportsfeeds.com/v2.0/pull/mlb/2018-regular/team_gamelogs.json?team=CHC\&date=from-20180401-to-20180430\&stats=none -u TOKENHERE:MYSPORTSFEEDS --compressed
+
+That spits out all the games.  Hit up arrow and run it again, redirecting
+to a file
+
+$ curl -X GET https://api.mysportsfeeds.com/v2.0/pull/mlb/2018-regular/team_gamelogs.json?team=CHC\&date=from-20180401-to-20180430\&stats=none -u TOKENHERE:MYSPORTSFEEDS --compressed > c:\tmp\april.json.txt
+
+That gets the april schedule for the cubs into the file.  We'll use that,
+in turn, to pull up play-by-play for a game.
+
+---------------
+
+Code to print out a schedule
+
+import json
+
+with open( "c:/tmp/april.json.txt") as f :
+    games =json.load(f)
+
+for g in games["gamelogs"] :
+    msfid = g['game']['id']
+    if(g['game']['awayTeamAbbreviation']  == 'CHC') :
+        print("{}: at {}".format( g['game']['startTime'][0:10], g['game']['homeTeamAbbreviation']))
+    else :
+        print("{}: {} at Wrigley".format(g['game']['startTime'][0:10], g['game']['awayTeamAbbreviation']))
+
+--------------
+
+
