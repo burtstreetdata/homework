@@ -1,0 +1,56 @@
+11-19
+
+Use the stuff you already have to get  a play-by-play into a
+variable called pbp -- the key statements -- 
+
+    import json
+    json_file =     "/tmp/pbpx.json"
+    with open(json_file,"r") as f:
+    pbp = json.load(f)
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Now run this code:
+
+for atbat in pbp['atBats'] :
+    print("Next atbat")
+    i=0
+    for p in b['atBatPlay'] :
+        if p['playStatus']['firstBaseRunner'] != None :
+            print ("next atbatplay First")
+        else:
+            print ("next atbatplay empty")
+       
+        if('batterUp' in p.keys()) :
+            pl = p['batterUp']['battingPlayer']
+            print ("{} {} {}".format(pl['firstName'], pl['lastName'], p['batterUp']['result']))
+        else:
+            i +=1
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Modify that code,  so that for each batterUp, it prints whether tehre is
+a player on First Base, Second Base, and Third Base
+
+To make the json data easier to look at, you can run this:
+
+with open("c:/tmp/dump.txt", "w") as f:
+    f.write(json.dumps(pbp, indent=4))
+
+That will make a fle called /tmp/dump.txt that you can load up in
+notepad++ and navgigate around in
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Now modify it so that it also includes the number of balls and
+strikes for each play
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Now modify it so that it only includes the number of balls and
+strikes if has changed since the last play
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Finally, modify it so that it print TOP 1, BOTTOM 1, TOP 2, BOTTOM 2
+as it goes allong and the innnig changes.
