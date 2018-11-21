@@ -1,0 +1,77 @@
+November 21
+
+What a dumb format, printing the names of the players over and
+over!  What kind of dopes are they at My Fort Speeds?
+
+It looks to me like they repeat the infielder lineup on every
+"batterup".  This makes some sense, because there could be a switch.
+
+Open up the dump of the file (c:/tmp/dump.txt) in notepad++ and
+see if you can see the pattern to when the players are listed by
+examining it.  It's not a very practical approach -- this is where you'd
+like to have a "schema" that documents when the data is put
+in place.  You may remember, when you store data in SQL, you
+can inspect the table structur using software and at least know
+where it's possible to store player information -- here we have
+no way to find out but look at the dump file -- and it could be
+that there are exceptions that.
+
+-------
+
+Thought problem:
+
+What would some  ways to make it less repetitious, and still
+be possible to determine who was playing at each position?
+
+----------
+
+Memory problem -- try to remember the syntax that made the dump
+file.  Look it up in yesterday's assignment, then memorize it
+for today.
+
+---------
+
+Programming problem
+
+Write a program that reads through the c:/tmp/dump.txt file, one line
+at a time (google 'python read each line in a file' or similar), and
+counts the lines.  At the end of the program print out the number of lines.
+
+("a program" just means a function, which you call from within
+anaconda.)
+
+
+---------
+
+Modify the program above to count only the lines that have the
+string "catcher:" in them (with the double quoutes), and print
+out the number of times they saw it.
+
+Modify the program to count only the lines that have "batterUp".
+
+Are they  the same?
+
+----------
+
+Modify the program you wrote last night to print both balls and
+strike count.
+
+---------
+
+Think about: Suppose you wanted the .txt file not to have any of the
+information about who played what position, but leave the rest of
+the lines intact.  What would a program have to do to strip
+out all the stuff like this:
+
+                        "centerFielder": {
+                            "id": 10272,
+                            "firstName": "Adam",
+                            "lastName": "Jones",
+                            "position": "CF",
+                            "jerseyNumber": 10
+                        },
+
+without removing any of the other data?  Basically, this comes down
+to -- if you read the file one line at a time, what  do you have to
+keep track of to know which lines to not print out, and when to start
+printing again?
