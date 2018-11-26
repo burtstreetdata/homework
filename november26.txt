@@ -1,0 +1,75 @@
+November 26
+
+1.  Write a program that uses python globbing and prints out the names of every file in c:/tmp that starts with "s".  Put some files in there that start with
+s and run again, confirm it got them.
+
+2.  Here is a progam that writes a list of players into c:\tmp\roster2018.txt.
+Run it on you computer -- you can past it into a cell in das Anaconda
+Navigatormeister and run -- it takes about 40 seconds:
+
+------------------
+
+import io
+import requests
+import base64
+import json
+
+def get_msf_token() :
+    with open(token_directory + token_file) as tfile :
+        token = tfile.read()
+    return  token.strip()
+
+token_file ='msf_token.txt'
+token_directory = '/api/'
+token = get_msf_token()
+
+pullheaders={
+        "Authorization": "Basic " + base64.b64encode('{}:{}'.format(token,'MYSPORTSFEEDS').encode('utf-8')).decode('ascii')
+        }
+pullurl = "https://api.mysportsfeeds.com/v2.0/pull/mlb/players.json"
+
+res = requests.get(url = pullurl, headers = pullheaders)
+
+with open("c:/tmp/roster2018.txt", "w") as fout :
+    presp = json.loads(res.text)
+    for p in presp['players'] :
+        player = p['player']
+        fout.write (f"{player['id']}, {player['lastName']}, {player['firstName']}, {player['officialImageSrc']}\n")
+
+----------------
+
+After that runs, you should have a file in c:\tmp named roster2018.txt
+
+If that doesn't work, copy from homework directory "playerlist" file into
+c:\tmp\roster2018.txt
+
+-----------------
+For next problems, you can search on the web for howtos:
+
+
+3.  Write a function that reads that file and counts the lines in it;
+it should print "2433" (i think).
+
+------------------------------------
+
+4.  Write a function that reads the file and counts jus the lines
+that say "None" for image.
+
+5.  Write a function that prints out every player whose last name
+begins with "Y" or "Z"
+
+-----------------------------------
+
+6.  search web for "python parse comma delimited" and "python string
+intepretation"
+
+Write a function that gets every line where the last name begins
+with Y or Z AND has "None" for image. For each line, print out
+
+     MLB Player <firstname> <Lastname> image
+
+We could use that as input to make a web search for images of those
+players
+
+
+        
