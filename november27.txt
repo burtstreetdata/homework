@@ -1,5 +1,8 @@
 November 26
 
+Today is a lot of repeat and exploration -- you want to be able to
+do these things almost without thinking.
+
 
 1. Repeat: Write a program that uses python globbing and prints out
 the names of every file in c:/tmp that starts with "s".  Put some
@@ -10,6 +13,22 @@ files in there that start with s and run again, confirm it got them.
 2.  repeat, but do this again.  Write a function that reads
 c:/tmp/roster2018 file and counts jus the lines that say "None" for
 image.
+
+2a.  Write a function that makes a list of all the ids of players
+who have "None" for a picture.
+
+2b.  write a function that makes a list of all the players
+who have a "q" or "Q" in their name.
+
+2c.  write a function with that gets items in both lists, here is
+psuedo code:
+
+    2a = firstFunction()
+    2b = secondFunctino()
+    
+    for id in 2a
+       if id in 2b
+          print id
 
 
 -----
