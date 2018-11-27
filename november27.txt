@@ -1,0 +1,59 @@
+November 26
+
+
+1. Repeat: Write a program that uses python globbing and prints out
+the names of every file in c:/tmp that starts with "s".  Put some
+files in there that start with s and run again, confirm it got them.
+
+------------------------------------
+
+2.  repeat, but do this again.  Write a function that reads
+c:/tmp/roster2018 file and counts jus the lines that say "None" for
+image.
+
+
+-----
+
+3.  search web for "python parse comma delimited" and "python string
+intepretation"
+
+Write a function that gets every line where the last name begins
+with Y or Z AND has "None" for image. For each line, print out
+
+     MLB Player <firstname> <Lastname> image
+
+We could use that as input to make a web search for images of those
+players
+
+
+----------
+4.  Try running the program below, this uses a special library for handling
+csv files:
+
+import csv
+columns = ['id', 'last_name', 'first_name', 'photo']
+with open("c:/tmp/roster2018.txt", "r") as roster :
+    reader = csv.DictReader(roster, fieldnames=columns, skipinitialspace = True)
+    for r in reader :
+        if 'None' in r['photo']  and r['last_name'][0] == 'Q':
+            print(r)
+
+You can use "csv" module to get files ready for presenting
+in a program like tableau.  It can also write csv files --
+
+read: https://docs.python.org/3/library/csv.html
+
+Just browse thru, concentrating mostly on the examples
+
+-----
+
+5. Download some csv data about anything, and try reading it and
+creating a graph with tableau. You can use web tutorials or whatever
+resource you want.
+
+------------
+
+6.  There are a couple github projects if you google "python
+retrosheet", look around at those and see if either seems more
+lively/interesting. 
+
