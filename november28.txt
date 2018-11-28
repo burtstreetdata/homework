@@ -1,0 +1,81 @@
+NOvember 28
+
+Write a python function that takes one argument, that is the name of a
+Game Log file from Retrosheet and calculates three things:
+
+   * NUmber of runs scored by Chicago for the year
+   * Number of runs scored by Opponent for the year
+   * Number of games won by Chicago for the year
+
+-----
+
+Hints:
+
+Dwnload from: https://www.retrosheet.org/gamelogs/index.html
+
+Each game is in a zip file, each zip file has a single year.
+
+THe "schema" is at:
+    https://www.retrosheet.org/gamelogs/glfields.txt
+
+Field 10 and 11 are the score, visiting and home
+
+Column 4 is the Visiting Team
+
+Column 8 is the home team
+
+If you read a line and then do
+   fields = line.split(',')
+
+You can get the value in column 4 with:
+    fields[3]
+
+If you have a string in a field, to use it as an integer, you
+do int(fields[9])
+
+
+-------
+
+Possible pseudo code
+
+
+open file and save in a chunk with realines()
+
+
+set season_cub_runs 0
+set season_enemy_runs 0
+set cubs_wins 0
+set cubs_losses 0
+
+for each line in chunk
+    are cubs in field 4 or 7 ?
+    	no, continue  ("continue" skips the et of the for loop)
+    set home score field 11
+    set visit score field 10
+    if cubs are field 4
+       if visit score > home score
+          cubs_win += 1
+       else
+          cub_lose += 1
+    else
+       similar
+    if cubs are field 4 (visitor)
+        season_cub_runs += field 10 (visitor score)
+    ... etc
+
+print
+
+=========
+
+Hint, first parse each line to just the variables you want,
+write a test program that just does the first 2 or three lines of
+the file til they come out right for home score/visitor score
+which is home team.... Save it at that point.
+
+Then modify it to only pay attention to cubs and read the whole file,
+add sums, etc.
+
+
+   
+    
+    
