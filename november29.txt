@@ -1,0 +1,40 @@
+November 29
+
+Continue working on this:
+
+Write a python function that takes one argument, that is the name of a
+Game Log file from Retrosheet and calculates three things:
+
+   * NUmber of runs scored by Chicago for the year
+   * Number of runs scored by Opponent for the year
+   * Number of games won by Chicago for the year
+
+1.  Get the number of games won by Chicago
+
+2.  Turn it all into a function with one argument, team_abbr.... that is,
+wrap it in
+
+     def getstats (team_abbr)
+
+3.  Now change all the hardcoded references from "CHN" to team_abbr
+
+Test that the function works for various teams.  
+
+
+4.  A function can return multiple values like this:
+
+    	return (win_count, team_runs, oppenent_runs)
+
+Make your function return like that.
+
+5.  Add the ability to keep track of win streaks.  This assumes that
+the log is in date order, which I think is true, and that your program
+encounters the lines in date order, which is probably true.  Have it
+return the longest win streek for the team it is called with.  Now
+it should return 4 values.
+
+
+
+6.  Make the function print out some kind of sensible error message
+if there are no rows found for the team given as team_abbr (e.g.
+if I call "def getstats ('xxx')" it could say "No such team xxx"
