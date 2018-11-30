@@ -1,0 +1,26 @@
+November 30
+
+Write a function that gets all the teams out of a logfie:
+
+def team_list(logfilename):
+     blah
+     blah
+     return list_of_names
+
+So if I write:
+
+   teams2016= team_list("/tmp/GL2016.txt")
+
+I'll get the list of all the teams in that log file into my teams2016
+variable.  Each team should only be listed once.
+
+
+2.  Run it in a loop
+
+    teams2016= team_list("/tmp/GL2016.txt")
+    for team in teams2016 :
+    	print(team)
+	print seaon(team)
+	print(--------------------------)
+
+
