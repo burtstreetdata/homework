@@ -1,0 +1,7 @@
+def team_list():
+     t=0
+     file=open('c:/tmp/gl2018/gl2018.txt')
+     for line in file:
+        t+=1
+        file.readline(t)
+        print (line[4])
