@@ -1,0 +1,35 @@
+Download some gamelogs from retrosheet, and put them in c:\tmp.
+
+
+
+
+Do the assignment from November 30-- write a function that creates
+a list of all the teams in a file. Only add a team to the list if
+it isn't already in the list.    It shoul give different teams for
+long-ago seasons.
+
+
+Below is the logic you wrote last night, you can adapt it to
+write and test this assignment.
+
+-----------------------------------
+
+
+import glob as glob
+s= glob.glob ('c:/tmp/gl*txt')
+    
+def get_it(filename) :
+    i=0
+    with open (filename) as file:
+        for g in file.readlines():
+            i+=1
+            fields=g.split(",")
+            atm,htm = (fields[3],fields[6])
+            asc,hsc = (fields[9],fields[10])
+            dt= (fields [0])
+            if i%88==0:
+                print (dt + atm + asc + ' ' + htm + hsc)
+                
+for season in s:
+    #print (line + 'is a logfile')
+    get_it(season)
