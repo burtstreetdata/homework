@@ -1,0 +1,44 @@
+December 5
+
+
+Assignment 1:
+
+Write a function that takes two file names, and parses them
+both as game logs, and returns a list of the teams were
+in the first file and not the second.
+
+Example:
+
+         x  =  year_team_diff("c:/tmp/gl2015.txt", "c:/tmp/gl1948.txt")
+
+Might set x to ['MIA', 'LAD', 'MIL' ... ]
+
+---------
+
+Note that the assignment leaves a lot vague:  which should it
+return, the teams not in the first file, or not in the second one?  What if
+the files have teh same teams?  What if there's no such file?
+
+When working with python interactively, you can decide as you go,
+depending on what is most useful for what you are doing.
+
+---------------------
+
+Assignment 2 :
+
+Write a function that takes a team log file for an argument and
+returns the average score of the home team and the average runs of
+the away team.  Write pseudo-code first...  you have to keep trak
+of how many lines you've processed, the running totals of the home
+score and of the away score, and once finished with file, divide
+the running totals by number of games.
+
+Once you have the values you can return them like:
+
+     return (home_avg, away_avg)
+
+Then your function can be called like:
+
+     ha, aa = home_away_avg("c:/tmp/gl2015.txt")
+     print("home :" + str(ha) + " away: " + str(aa) )
+    
