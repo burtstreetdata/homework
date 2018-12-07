@@ -1,0 +1,40 @@
+December 7
+
+When namning functions and variables, use meaningful name,
+not turkey/gobbler, etc.  E.g. "def distinct_teams(filename)".
+Choosing good names is difficult, but it makes it easier
+to understand what the program is supposed to do.
+
+
+Redo -- Assignment 1:
+
+Write a function that gets all the tam names from a log file.
+Thos are fields [3] and [4] (the 4th and 5th).  It should
+return (not print) a list of strings.
+
+Write another function that takes two log file names as its arguments.
+That function should return (not print) the elements that are in one
+of the lists but not the other.  You should use your first function to
+do most of the work in writing the second one.
+
+
+----------------------------------------------
+
+Assignment 2 -- Redo :
+
+Write a function that takes a team log file for an argument and
+returns the average score of the home team and the average runs of
+the away team.  Write pseudo-code first...  you have to keep trak
+of how many lines you've processed, the running totals of the home
+score and of the away score, and once finished with file, divide
+the running totals by number of games.
+
+Once you have the values you can return them like:
+
+     return (home_avg, away_avg)
+
+Then your function can be called like so:
+
+     ha, aa = home_away_avg("c:/tmp/gl2015.txt")
+     print("home :" + str(ha) + " away: " + str(aa) )
+
