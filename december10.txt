@@ -1,0 +1,42 @@
+December 10
+
+1.  Pseudo code only -- you don't know enough python to make
+a program like this, (unless you think of something I don't).
+What is an algorithm to calcuate, for any given day in a season,
+what team(s) has/have the longest winning streak as of that day,
+and how many games is that?
+
+So if you asked about the first day of the season, half the teams
+would hae a streak of 1.  On the second day about 1/4 would have a
+streak of 2... on july 3, it could be anything, two teams with
+7, 5 teams with 2.
+
+The point of the assignment is 
+    What do you need to keep track of as you read the file?
+    What structures would you need to make that practical?
+    How much nested looping is involved?
+
+
+2.  Code -- in python, write the program you pseudo-coded last
+night:  get the team with the longest winning streak in any given
+file.
+
+Check the schema on retrosheet, or examine the file with known
+games, to make sure you have the correct fields for home/away score
+and team abbrev.
+
+       def longest_streak("gl2001.txt")
+
+Should come back with ("SEA", 15) (or whatever the right answer is).
+
+Your code should use the functions you already wrote (or started to
+write) to get all the teams in a file and get the longest streaks for
+a given team.  So it will be a short function (but you have to find,
+finish, or re-create the two other functions).  One thing to notice
+about it: you asked last night about looping.  All the looping is
+still there for the two functions, but by "encapsulating" the logic
+into functions, it's not obvious how deep the nesting is when you just
+look at the final function.  When you type a key and a character
+appears on your screen, it probably involve 15-20 levels of nested
+loops for the keyboard, Operating System, and display driver software
+to make that happen.
