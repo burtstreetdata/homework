@@ -1,0 +1,38 @@
+December 11 -- Finish this up:
+
+
+Using python --  Get the team with the longest winning streak in any given
+file.
+
+       def longest_streak("gl2001.txt")
+
+Should come back with ("SEA", 15) (or whatever the right answer is).
+
+Your code should use two other functions you write.  One is to get
+the winning streak for a specific team, you have the heart of that function
+from last night at:
+
+https://github.com/burtstreetdata/homework/blob/master/ass/homeork1210.ipynb
+
+You have to paraterize that function to make it take a team as an
+argument.
+
+Then you have to write a function (or find one you wrote previously) that
+will get a list of teams from a Log file.  Remember that when you
+add strings to the list, you have tp strip off the " and you have to
+check if a team is already in the list before adding.
+
+
+Finally, you will tie them tother with something like this
+(pseudo code)
+
+longest_yet = 0
+streaking_team = ""
+teams = teams_in_file(the_file)
+for t in teams :
+    strk= get_streak(the_file, t) 
+    if strk > longest_yet :
+        longest_yet = strk
+	streaking_team = t
+return(longest_yet, streaking_team)
+	
