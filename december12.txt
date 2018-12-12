@@ -1,0 +1,21 @@
+Dec 12
+
+Take a break from python for a bit and go back to javascript
+
+See if you start nginx from Ubuntu, if you browse to http://localhost/brewers
+
+In your tmp directory, under "brewers", I think there's some pages,
+just review what's there.  Look for any work you did using bootstrap
+and try to find those pages (search the web for "how to find text in
+files windows 10" or something if you can't find it.  Probably the pages
+are in /tmp or a subdirectory of tmp
+
+Vague, self-guided assignment:
+
+Try to write a page with some javascript that does anything, just find
+an example on the web of coloring text or something, and see if you
+can make it work.
+
+ * Javascript will only work when it is served by a web browser
+ * don't use inline javascript, put it in a file
+ * use previous pages you created to avoid setting up all new directories
