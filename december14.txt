@@ -1,0 +1,43 @@
+December 14
+
+Graphing
+
+Question to analyze:
+
+What is the correlation between a team's longest winning streak
+in a year and the total number of games the team won in a year?
+
+Let's start by looking at total games won and longest winning
+streak for each year between 1965 and 1969 for Braves, Cubs, Giants
+Cardinals and Astros.
+
+1.  Gather data
+
+In a spreadsheet or anything else, get a list of games won for
+each team.  To get the longest winning streak, probably the "cubstreak"
+function and retrosheets logs are easiest thing to use.
+
+Anyway, get the team, total wins (including or excluding postseason,
+your choice, but consistent for each year) and longest streak for
+yeach year for those 5 teams for those 5 years.
+
+
+2.  Make a csv file out of it it, by hand or however convenient.
+
+3.  In Tableau, make a bar graph (or experiment with any kind of graph)
+that shows the data.  You might want to multiply winning streak by
+some number so that it's more visually comparable with total games --
+since eeryone will wind 50-100 games but most teams will only have streaks
+between 4 and 10, it might make sense to multiply streaks by 10 or 11.
+
+See if you can demonstrate there is, or is not, a visual correlation
+between the two data -- do teams with longer winning streaks tend to
+win more games, based on this sample?
+
+
+----------
+
+Later assignments, we'll gather more data, get a javascript graphing
+package, and put your cubstreaks program on a web server to deliver the
+data for javascript.
+
