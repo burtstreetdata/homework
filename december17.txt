@@ -1,0 +1,72 @@
+December 14
+
+Graphing
+
+(repeat) Question to analyze:  
+
+What is the correlation between a team's longest winning streak
+in a yearnn and the total number of games the team won in a year?
+
+Let's start by looking at total games won and longest winning
+streak for each year between 1965 and 1969 for Braves, Cubs, Giants
+Cardinals and Astros.
+
+(repeat) 1.  Gather data
+
+In a spreadsheet or anything else, get a list of games won for
+each team.  To get the longest winning streak, probably the "cubstreak"
+function and retrosheets logs are easiest thing to use.
+
+Anyway, get the team, total wins (including or excluding postseason,
+your choice, but consistent for each year) and longest streak for
+yeach year for those 5 teams for those 5 years.
+
+
+(NEW) 2.  Make a csv file out of it it, by hand or however convenient.
+
+You can reinstall open office, or download something from microsoft
+store, or just make the text file with notepad++, or search for an online
+spreadsheet.
+
+Here's a format you could copy notepad++:
+
+Streak;Wins;Team;Year;
+4;77;Astros;1965;
+6;83;Astros;1966;
+6;75;Astros;1967;
+8;90;Astros;1968;
+4;80;Cards;1965;
+3;67;Cards;1966;
+4;78;Cards;1967;
+3;81;Cards;1968;
+
+(part of the point of this exercise is to see, at 5 teams for 5 years,
+it's tedious but doable, eventually we'll wanto to do 15 years for all
+teams, we'll have to automate that)
+
+
+(New) 3. Try to figure out what the bst way would be to grpah the data by hand
+for just one or two teams.  What would you expect the data to look like
+if there is a correlation, and would you expect it to show up for a single
+team?
+
+(REPEAT) 4.  In Tableau, make a graph (experiment with any kind of graph)
+that shows the data.  You might want to multiply winning streak by
+some number so that it's more visually comparable with total games --
+since everyone will wind 50-100 games but most teams will only have
+streaks between 4 and 10, it might make sense to multiply streaks by
+10 or 11.
+
+Just spend about 15 minutes on it unless you feel like you're making
+good progress.  Then watch/read a tutorial on the basics, or see if you
+can find a similar tableau graph at {google tableau viz gallery}
+
+https://public.tableau.com/en-us/s/tableau-20183-viz-gallery
+
+
+----------
+
+Later assignments, we'll gather more data, get a javascript graphing
+package, and put your cubstreaks program on a web server to deliver the
+data for javascript.
+
