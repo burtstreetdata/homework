@@ -1,0 +1,45 @@
+Get more data of rows to graph
+
+1.  Figure out how to write to a csv, here's one example:
+
+https://realpython.com/python-csv/#writing-csv-files-with-csv
+
+You would want to write out something like
+
+  filewriter.writerow(['NYY', 1995, 4, 81])
+
+for New york, 1995, 4 streak, 81 wins.
+
+2. Now write a loop to get more data -- adjust the abbreviation
+of the teams to be correct, here is pseudo code:
+
+   open a csv writer
+   for each team in ['CHN', 'SLN', 'HAN', 'ALN']
+      for year in range(1965:1970)
+        filename = '/TMP/GL' + str(year) + '.TXT'
+        streak = cubstreak(team, year)
+	   filewriter.writerow(team, year, streak)
+
+(you'll have to play around with that filename syntax, test it with
+print loops, make sure all the game logs are in the same directory)
+
+That should make a file with the streak in it.  Then edit the file
+with notepad++ to put in the wins per years.  If you can figure out a way
+to have the loop put in number of wins of course that's better but
+I don't know any convenient syntax.
+
+3.  In tableau, read the file.  Here is my idea, I think the streak
+length should be the x axis, and be discrete vaues -- one column for
+3 wins, one for 4... up to 25 or whatever is longest in the sample.
+
+Then the "marks" should show either the average of wins, or, what I
+can't figure out how to do, one dot representign each
+team+year+numberOfWins for each season.  So if a team had 9 win streak
+and won 99 games, tehre should be one mark on the 9 win "column" with
+a mark at 99 on the y axis for that team.
+
+Another thing that wold be good is if 5 teams who had 9 games streaks
+won 99 games, that dot should be bigger (example sketch).  I am
+leaving some sketches of what I have in mind, see if you can figure
+out how to do them
+   
