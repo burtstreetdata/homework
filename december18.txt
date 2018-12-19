@@ -1,45 +1,47 @@
-Get more data of rows to graph
+Get more data of rows to graph:
 
-1.  Figure out how to write to a csv, here's one example:
+Summary: Today's assignment is to get the program we were working on
+last night to work to print out csv files with the strreak of each
+team for the year range.
 
-https://realpython.com/python-csv/#writing-csv-files-with-csv
+Details:
 
-You would want to write out something like
+First run what we wrote last night, and review what it's doing so far.
+It's just printing out the arguments it generates, not actualy
+calling cubsstreak or writing out to a CSV yet (except maybe one junk
+row)
 
-  filewriter.writerow(['NYY', 1995, 4, 81])
+1. Get all the game log files for 1965 thru 1969 in c:\tmp.  After
+you unzip them, you have to move the unzipped .txt files up a level.
+The logs have to be all in the same directory.
 
-for New york, 1995, 4 streak, 81 wins.
+2. Change the code (you might want to copy what you have to start with
+somewhere in case it gets messed up in editing).  In the loop, call
+cubstreak, and get the streak for the current team:
 
-2. Now write a loop to get more data -- adjust the abbreviation
-of the teams to be correct, here is pseudo code:
+	streak = cubstreak(filename, team)
 
-   open a csv writer
-   for each team in ['CHN', 'SLN', 'HAN', 'ALN']
-      for year in range(1965:1970)
-        filename = '/TMP/GL' + str(year) + '.TXT'
-        streak = cubstreak(team, year)
-	   filewriter.writerow(team, year, streak)
+Then assign stuff to a list:
 
-(you'll have to play around with that filename syntax, test it with
-print loops, make sure all the game logs are in the same directory)
+        row = [team, year, streak]
 
-That should make a file with the streak in it.  Then edit the file
-with notepad++ to put in the wins per years.  If you can figure out a way
-to have the loop put in number of wins of course that's better but
-I don't know any convenient syntax.
+and write the row to the csv
 
-3.  In tableau, read the file.  Here is my idea, I think the streak
-length should be the x axis, and be discrete vaues -- one column for
-3 wins, one for 4... up to 25 or whatever is longest in the sample.
+    	  gamewriter.writerow(row)
 
-Then the "marks" should show either the average of wins, or, what I
-can't figure out how to do, one dot representign each
-team+year+numberOfWins for each season.  So if a team had 9 win streak
-and won 99 games, tehre should be one mark on the 9 win "column" with
-a mark at 99 on the y axis for that team.
+Note -- in the cells above your loop, you have to have run the code
+to define "cubstreak" -- it needs to be redefined each time you start
+Anaconda.  
 
-Another thing that wold be good is if 5 teams who had 9 games streaks
-won 99 games, that dot should be bigger (example sketch).  I am
-leaving some sketches of what I have in mind, see if you can figure
-out how to do them
-   
+Get the program to work to write all the streaks for each team/year
+combination.  Once you confirm it's working, study it a bit, and try
+to rewrite it from scratch, in a new workbook.  For tonight, I'll
+want to see you write out the program, it probably comes up to 12 lines or
+so.
+
+Note also: "gamewriter", I chose that name, it's a poor choice that
+confuses the program.  Call the csvwriter something that reflects what
+it is writing.  Again, choosing good vabiable names is important.
+You can use a variable name like "f" for something that you're using
+once within a couple lines, otherwise you should spend time to choose
+a name that describes what the program is doing.
