@@ -1,0 +1,19 @@
+Homework
+
+
+Happy birthday.... pseudocode only today
+
+1. Be able to give the pseudo code for creating the csv file we were
+working on.
+
+
+2.  Suppose you have a function called "succeeded()" that returns
+"YES" 90% of the time and "NO" 10% of the time.  Give me pseudo code
+for a a function that calls succeeded() 14 times.  Each time
+succeeeded() returns "NO", your function starts trying again on
+attempt number 1, trying to get 14 in a row.  When it gets 14 in a row
+it prints "Got 14 in a row on 2032 tries".
+
+This is a simulation of trying to blow out 14 candles on one breath,
+and someone relights all the candles if any don't go out.  So it
+is science.
