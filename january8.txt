@@ -1,0 +1,37 @@
+Jan 8
+
+Trig
+
+Warm up:
+
+On this page, abouout 3/4 of the way down, is a drawing of the
+unit circle with all the notations that app uses:
+
+     https://www.mathsisfun.com/geometry/unit-circle.html
+
+
+The picture is just below the text "Note that cos is first and sin is
+second, so it goes (cos, sin):"
+
+Looking at the picture, so you can get 100% if you don't fumble-finger,
+run thru the app once.
+
+---------------------------------
+
+Take a break from Trig, go back to tableau.  Try to download this
+workbook:
+
+https://public.tableau.com/profile/owenhwatson#!/vizhome/ERAFIPStartingPitchingStaffsEntireSeasonMLB2015/Dashboard1
+
+From the "download workbook" button.  Look at the data sheets, and
+see if you can get data in the same format for some 2018 teams, and
+change the graph to show those.
+
+Spend 30 minutes or so on this.
+
+
+-------------------
+
+Back to trig, without referring to the graph, try running the app for
+3 minutes or so, take your time, don't rush or make yourself complete it.
+We'll look at for 3 or 4 days before the pieces come together.
