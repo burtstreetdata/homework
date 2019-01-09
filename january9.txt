@@ -1,0 +1,46 @@
+Jan 9
+
+Trig
+
+Radians: a radian measures the size of an angle, like a degree.  There
+are 2 pi radians in a circle, about 6.3 radians.  Since there are 360
+degrees in a circle, you can figure there's a bit less than 60 degrees
+in one radian.
+
+Google "how many degrees are in a radian", then, for homework, be able
+to explain why there are about 60 (that is, understand and remember
+the explanation above).
+
+One thing worth mentioning: in looking at the unit circle and common
+radians, you never talk about "1 radian" or "3 radians" -- the common
+measures are all multiples of pi.  So 3.14159... radians is a half
+circle, and 1 radian is nothing in particular -- about 2/3 of a quadrant,
+about 60 degrees -- but other than knowing that rough idea of what is
+the size of one radian, you don't deal with whole numbers of radians.
+
+I left a sketch showing the sixths of radians.  Since ther are 2 pi radians
+in a circle, there are 12/6 * pi radians.
+
+Copy the sketch a couple times, but write in not just 1/6, 2/6, 3/6.... but
+also (or instead) the the "normal" numbers -- e.g. 1 1/2 π, or 3π/2,
+instead of 9/6 pi.
+
+Using your sketch as a reference, do the phone app once.
+
+-----
+
+Tableau
+
+Starting with the small dataset you made lastnight (turkeys,
+gobblers), import that into a new, blank workbook.  Try to make some
+kind of understandable graph -- side-by-side bar charts would be
+an obvious way -- letting you see the the same data, in a different
+format.
+
+25-30 minutes: Now open up the example that is formatted like the
+gallery.  By looking at the GUI, and doing web searches, see if you
+can change your graph (or make a new graph) sto start looking anything
+like the sample.  Teams have to be the rows, and both "measures" --
+FIP and ERA -- have to plot in the same graph.  I couldn't figure it
+out myself, but just explore, see if you're able to get anywhere.
+Start getting familiar with the terminology you see in web searches.
