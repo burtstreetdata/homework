@@ -1,0 +1,27 @@
+Jan 10
+
+Tableau -- watch the 5 minute video about "understanding the logic
+of charts" on https://public.tableau.com/en-us/s/resources
+
+You can watch any of the others there, also.
+
+Go back to the sample we were working on and see if you can figure out
+how to get the lines between data points.  Even if not, see if you can
+get to the point of being able to easily (fluently) make the chart
+from scratch, starting with a blank sheet, importing the .csv file,
+and making FIP and ERA have different marks (triangle for FIP and
+cirle for ERA) on a dual axis chart.
+
+Spend most of the hour on that.
+
+Trig
+
+Look at the unit circl interactive thing on mathisfun, or anyhwere else.
+Choose some arbtrary point on the circle, and get th sine and cosine
+of the point.  In a calculator, find out if sine squared + cosine squared
+is = 1.
+
+Python
+
+See if you can get python to print out just the 2nd column of your turkey.csv
+file (parse and print a csv file)
