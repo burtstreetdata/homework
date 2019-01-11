@@ -34,7 +34,7 @@ to define "cubstreak" -- it needs to be redefined each time you start
 Anaconda.  
 
 Get the program to work to write all the streaks for each team/year
-combination.  Once you confirm it's working, study it a bit, and try
+    combination.  Once you confirm it's working, study it a bit, and try
 to rewrite it from scratch, in a new workbook.  For tonight, I'll
 want to see you write out the program, it probably comes up to 12 lines or
 so.
