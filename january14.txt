@@ -1,0 +1,70 @@
+Jan 14
+
+Tableau -- Good work on doing toot Thursday and finding the
+name of dumbell chart. Below are my notes from when I tried
+to re-create.  Using those notes and anyting else you can find,
+make a dumbell chart of your turkey data.
+
+Then, think about this -- what does the original graph convey?  Is
+it a good graphic that helps you understand anything about relative
+quality of teams, or predict anything about the season it is based on?
+
+------
+
+ * In a dual axis chart, you can't put in more than 2 measures.  So you coldn't put in one measure for FIP, one for ERA, and another one to somehow represent the line.
+ * In the left pane, under "Data", There is a list of measures -- and one
+ is special, that is #Measure Values.  That has all the measures.  When
+ you hover mouse on it, the popup descrbes it as containing all measures.
+ * Important for us, once you pull "Team" dimension to the rows area, our
+ data only has two observations per team, 1 FIP and 1 ERA.  If we had
+ multiple years, the dumbell technique would have to be modified.
+ * If you drag #Measure Values to rows, you'll see Columns, you see it
+ makes the "pill" a different shape, not an oval.  I figure that tells
+ you it's blended.
+
+Steps
+	Drag team to Rows
+	Measure Values to Columns, twice
+	Right click on right-side Measure Values in the column tray and set it to "Dual axis"
+	In the "cards" for "Maarks", one should be set to "Shapes" and one to "Lines"
+	To make the lines not connect ERA and FIP, you have to click "Measure Names" from Dimensions to the "Path" in the card.  That makes it draw lines from one category name to another.
+
+
+----------
+
+
+Trig
+
+Make yourself some flashcards with the coordinates on one side and the
+radians on the other.  The coordinates are also sine (the x-axis) and
+cosine (the y-axis).  Just do the top of the circle, up to pi, for now
+(or you can do any hemisphere, the right hand side (cosine positive).
+
+Start memorizing sine and cosine for each radian -- do 10 minutes or
+so of each.
+
+
+--------
+
+Look at:
+
+http://www.analyzemath.com/trigonometry_questions/right_triangle.html
+
+quesiont 1 and 2 you should be able to do, you don't have to do them
+but review that you know how and we'll work thru tonight.  Question 3,
+I don't see how you would calculate the answer.
+
+But question 4 is interesting and you can use the stuff you've memorized
+to "crack" the problem.  See if you can figure out how.  One hint: the
+ratios of the sides of all similar triangles are identical -- that is,
+no matter how big AC is, the ration of AC:BC is the same for any right
+anlge with a 30 degree angle.
+
+---------------
+
+Python
+
+Parse a csv file again -- parse the data file you're using for tableau
+and print out a line for each that says "FIP 3.2 and ERA 3.44"
+
+
