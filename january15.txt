@@ -1,0 +1,54 @@
+Jan 15
+
+Tableau --
+
+Make a new chart from teh same FIP ERA data that is a more familiar type:
+vertical bars showing, for each team, their FIP in Red and their ERA in
+blue
+
+
+E.g., to sketch it in letters:
+
+4.2              R
+4.1  R           R
+4.0  R           R
+3.9  RB     B    R
+3.8  RB     B    R
+3.7  RB    RB    RB
+3.6  RB    RB    RB   
+3.5  RB    RB    RB
+     Turk  Gob   Tnksgiv
+
+R is red for ERA, B is blue for FIP, So the Gobblers have  a 3.9 FIB and
+3.7 ERA in my sketch above.
+
+
+------------------------------
+
+Trig
+
+Make yourself some flashcards with the sine and cosine on one side and
+the radians on the other. The sine is the x-axis value and cosine is the
+y-axis on the unit circle.
+
+E.g.,  cosine of pi/3 == 1/2, sine pi/3, sine of 0 is 0, sine of pi/2 is
+1
+
+Just make it for half the circle -- top half, right half, whichever
+you want.
+
+Each card will have one value for radians and, on the other side,
+two values: one for sine, one for cosine.
+
+
+---------------
+
+Python
+
+Parse a csv file again -- parse the data file you're using for tableau
+and print out a line for each that says "FIP 3.2 and ERA 3.44"
+
+Don't worry how we did it before, just look on line and find a way
+to find and format the values.
+
+
