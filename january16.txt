@@ -1,0 +1,52 @@
+Jan 16
+
+Tableau --
+
+Go on this site:
+
+https://electionlab.mit.edu/data
+
+And look for county prsidential election that
+looks like this:
+
+"year","state","state_po","county","FIPS","office","candidate","party","candidatevotes","totalvotes","version"
+2000,"Alabama","AL","Cherokee",1019,"President","Other",NA,95,7823,"20181011"
+2000,"Alabama","AL","Chilton",1021,"President","Al Gore","democrat",4806,15092,"20181011"
+2000,"Alabama","AL","Chilton",1021,"President","George W. Bush","republican",10066,15092,"20181011"
+
+Get just a small sample of it, and figure out what you'd need to do
+to get it to be in a format similar to what the data you had for github
+was -- there's no geographic data here, when you look at the two files,
+is there anyway to figure out what geographic data corresponds to
+Chilton County, AL?
+
+Make some graphs showing total votes by state for Nader in 2000 -- just
+bar graphs or dot graphs or something.
+
+Spend most of the hour.
+
+------------------------------
+
+Trig
+
+Review your flashcards for a few minutes before and after graphing.
+You're trying to learn the sine and cosine of the 16 Angles of Burt Street.
+Try working from both sides, too.
+
+---------------
+
+Trig Reading:
+
+Skim thru
+
+https://owlcation.com/stem/Everything-About-Triangles-and-More-Isosceles-Equilateral-Scalene-Pythagoras-Sine-and-Cosine
+
+Dig the author's picture, too.
+
+Read about "the sine rule" and "the cosine rule" about halfway down the page
+in particular.  You don't have to do any calculations but we'll walk thru
+some on odd size angles later today.
+
+
+
+
