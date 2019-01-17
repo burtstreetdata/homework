@@ -1,0 +1,41 @@
+Jan 16
+
+Tableau --
+
+Here is a model graph that does something similar to what I had in mind:
+
+https://public.tableau.com/profile/clillich.kltv#!/vizhome/ElectionResults_5/Dashboard1
+
+Try pulling that into tableau, look at the defnitions of marks.  Look
+at the source data -- They did use your basic idea of each county into
+one line and making a gradiant for each mark.  Anyway, try replicating
+it on a couple counties with the data you made up.  I don't know how it
+works.
+
+Here's another 
+
+https://public.tableau.com/profile/laura.thompson5078#!/vizhome/2017VirginiaElectionResults/Dashboard1
+
+https://electionlab.mit.edu/data
+
+
+------------------------------
+
+Trig  (repeat)
+
+Review your flashcards for a few minutes before and after graphing.
+You're trying to learn the sine and cosine of the 16 Angles of Burt Street.
+Try working from both sides, too.
+
+---------------
+
+Let me see how well I can draw this . . .
+
+Watch this couple of videos and try the practice problems.
+
+You can use a calculator
+
+https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-law-of-sines/v/law-of-sines
+
+
+
