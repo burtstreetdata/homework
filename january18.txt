@@ -1,0 +1,5 @@
+January 18
+
+on homework repostitory is flat2016.csv, that gives for each county
+what the percentage of vote was for democrats.  Take it to tableau
+and see if'n you kin graffit chign.
