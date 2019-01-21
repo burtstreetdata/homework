@@ -1,0 +1,26 @@
+January 21
+
+1. Start up anaconda so you can use it later.
+
+
+
+2. on github homework repostitory there is a file flat2016.csv. That
+gives for each county what the percentage of vote was for democrats.
+Make a chart from it in tableau
+
+
+3.  On github, download the LoathsomeLoser ipynb file, a notebook, and
+try to import it to your machine -- you can also login as Danny on my
+computer and give it a try.  It has comments on how data was cleaned up --
+this is state-level presidential election data got thru MIT website --
+
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/42MVDX
+
+Download the data and try to walk thru the notebook using it.
+
+If you are able to get that, try remaking a new file with different
+"cuts"
+
+
+
+
