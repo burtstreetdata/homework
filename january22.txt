@@ -1,0 +1,43 @@
+January 23
+
+Reference chapter 8 in Algebra book
+
+Important points about systems of equations:
+
+    5x + 3y = 18
+or more generally:
+    Cx + Dy = K
+
+* Can be re-writtent as y = mx+b, just by isolating y.  So if you have
+two equations, it represents two lines.  Either they are parallel or
+they are the same line, or they interesect at one point.
+
+* With systems of equations you're mostly interested in "they
+interesect at one point" and the other two cases are "trick questions"
+you have to recognize when they come up.
+
+* The solution (if not the same line or parallel) represents the
+  intersection of two lines.
+
+Chapter 8 gives LONG spelled-out examples of both "substitution" and
+"elimination"
+
+Make up two equations of your own.  Choose relatively small constants,
+less than 10, and choose whole number.  Solve the system of equations
+both ways.   E.g., you could say
+
+     5x - 3y = 9
+     7x + 2y = 4
+
+Then solve both ways.  It will be easier if you start out choosing a value
+for x and y, e.g., x =3 and y = 4, then make up two equations like
+    2*3 -5*4 = -14 . . .  2x - 5y = -14
+
+Do two pairs of equations, solving each one by substitution and by
+elimination (total of 4 problems).  Try to make some generalization
+about when it's easiest to solve by substitution (I think in math
+books it's more common to see ones that are easier to solve by
+elimination.)
+
+
+Do back exercises and go up and down stairs.
