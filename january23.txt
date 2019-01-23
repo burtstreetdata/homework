@@ -1,0 +1,26 @@
+January 23
+
+
+
+
+* Tonight I'll try to remember to ask you, "how do you rewrite an
+nequation lik this: 5x + 3y = 18 into y = mx+b?"  And the answer is
+"isolate y".  So, to practice, how do you rewrite an equation like
+this: 5x + 3y = 18 into y = mx+b?  Did you answer "isolate y"?  Good!
+
+Make up another pair of equations, working backward -- start by
+knowing the answer, e.g, x=6 and y=2.  Write two equations, both
+involving the the two constant you chose, then rewrite them with "x"
+and "y".
+
+Then solve by substition.  Remember, you have to substitute into
+the equation you DIDN'T start with -- if you isolve x or y in one
+equation, you have to substitute back int the other equation, or
+you'll just get 8=8 or simmilar.
+
+On the yellow book of horrors, page 170, do two problems by substitution
+and one by elimination
+
+Do back exercises and go up and down stairs.  Practice answering "isolate
+y"
+
