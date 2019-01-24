@@ -1,0 +1,37 @@
+January 24
+
+* Remembet to say "isolate y" if I ask you how do you rewrite an equation like
+this: 5x + 3y = 18 into the form y = mx+b?
+
+* If you have an equation Ax + By = C, you can isolate y by subtracting
+Ax from both sides and then diving both sides by B -- so the equation
+becomes
+
+	y = (C - Ax) / B
+
+That can be rewritten
+
+        y - C/B - Ax/B
+
+And what's important about that?  It gives you the slope of the line --
+namelye (-1)*(A/B)
+
+For example --   2x + 5y = 9
+
+         y = (9 - 2x) / 5
+
+	 y = 9/5 - (2/5) x
+
+So the slope is -2/5.  And the y-interecept is 9/5... aka 1 4/5
+
+------
+
+Go thru the above step-by-step with 3 other constants, e.g. 4,6 and 7,
+in any order.  After you got the slope, graph the equation as desmos.com.
+One thing to note is that whenever A and B are positive the slope is negative.
+
+On page 171 of the yellow book, solve any three of the systems of equations,
+using either substitution or elimination.  Verify the results by graphing
+at desmos.com.  If you have any errors, work back thru the arithmetic
+and find where.
+
