@@ -1,0 +1,22 @@
+
+On page 172, do problems 1 and 2 by BOTH substitution and elimination.
+First find the error in  the one I did wrong (see below)
+
+The answers are (from the back of the book)
+
+1.  x=16/11, y = 10/11
+2.  x = -46/41 y = -57/41
+
+So your job is to demonstrate, two ways for each problem, that those answers
+are correct.  You can use a calculator, there is a lot of arithmetic.
+
+I did problem 2 and made an error, I left that in the book, first thing
+you should do is find where I made mistake.  I left the corrected one folded
+up, don't peek til you find my error.
+
+Once I figured "y" I made three errors in calculating "x" -- I put all the work
+in the book.  That's what I want you to do, hopefully fewer errors than
+I made, but show both of the problems solved two ways, and completely
+solved for both x and y.
+
+This weekend we will do more on factoring
