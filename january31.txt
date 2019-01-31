@@ -1,0 +1,18 @@
+
+Factoring:
+
+Do problems 4, 5 and 6 on page 81.  Be aware that they do have fractions
+in the answer.  Solve all the way down to "x=", that is, after you factor,
+find the two values of x that can make the equation zero.
+
+On page 172, do problem 3 and problem 4, systems of equations.  If you
+hit terrible fractions like 3x - 47/192 = 2/51, just keep working, isolate
+x, reduce final fraction.
+
+After you're done on 172, check answers in back of book.  If either is
+wrong, find and circle your error, then re-do using a different technique:
+substitution if you eliminated on first try, elimination if you substituted
+on first try.
+
+Tonight's we'll have out last review of systems of equations, a test
+where you have to get two problems right.
