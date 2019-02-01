@@ -1,0 +1,7 @@
+February 1:
+
+Factoring:
+
+On page 81, do problems 7, 8, 9, 10 and 11.  Solve all the way down
+to possible values of x, e.g. (2x + 4)(x+3) isn't a good answer, -2, -3 is
+the answer int that case.
