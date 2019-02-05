@@ -1,0 +1,31 @@
+More practice on systems, these should have whole number solutions:
+
+Get the x and y value for each pair iof equations
+1)
+
+3x+5y+8 = 7
+2x-2y-7 = 3
+
+
+2)
+8x+y-4 = 56
+-2x+3y+5 = 3
+
+3)
+2x+10y+11 = 11
+12x-9y-9 = 198
+
+------------
+
+Don't try to hurry thru, pay special attention to the signs of
+operators, e.g., make sure if you subtract or add on one side,
+you do the same operation on the other; with negative numbers
+that's an easy mistake to make.
+
+Rembmer also that if you need to divide by 3, for example, you
+can multiply everything by 1/3, and that's usually easier.
+
+And what we saw last night, if you have to multiply to eliminate
+a fraction, make sure you multiply every expression on both sides
+of equation by same amount.
+
