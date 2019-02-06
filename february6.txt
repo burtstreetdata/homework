@@ -1,0 +1,12 @@
+More practice on systems, these should have whole number solutions:
+
+Tonight we will have a test doing 2 randomly-chosen systems of equations
+problems from the yellow book, so review anything you need to.  I know
+you have the concepts of sustitution/elimination mastered, it's the
+simplification arithmetic you need to have more reliable, mostly working
+with distributing multiplication/division over expressions with fractions
+and being careful with signs.
+
+Today, for homework, do problems 1 thru 5 on page 82, factoring.  Remember,
+once factored to an answer like (3x-5)(2x+2) = 0, you still have to get
+the values for x (5/3 and -1 in that example).
