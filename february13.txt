@@ -1,0 +1,20 @@
+FeBrUaRy 13
+
+1.  Factoring by box method:
+
+Do problems 10 and 11 on page 94
+
+2.  Cross multiplying to     SOLVE FOR X
+
+On page 134: Do problems 4, 5, 6, 7, 8, 9
+
+ON PROBLEM 7 -- you will get an expression with a square in it.
+Unless it is factorable, you won't be able to solve for x.  You have
+to see if it is factorable:  
+  * get it into form Ax^2 + Bx + C = 0
+  * see if you can factor using box method -- I think the "ac" term
+  is goingt to be "way huge" and you won't be able to.
+
+  * If it's not factorable, you can only SOLVE FOR X using the quadratic
+  formula -- you don't have to do that for homework, we'll do it tonight.
+
