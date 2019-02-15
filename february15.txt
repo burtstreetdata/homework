@@ -1,0 +1,15 @@
+Feb 15
+
+On the Humungous book, pages 530-532, there are 4 progressively
+more complicated problems: 23.24, 23.25, 23.26, 23.27.
+
+Study the way each is done - copy the
+steps, verify the calculations.  Take the answers given in the book, and
+plug them back into the original story problem, and verify that they
+check out.
+
+Make up two problems of your own similar to 23.27, and be ready to
+grade me doing the problems (e.g., "Ron Paul eats 2.5 tacos per minute
+and Larry Craig eats 3.9 tacos per minute. If Larry starts eating
+tacos 10 minutes before Ron, and Ron starts at 3:25, at what time
+will Larry have eaten 100 more tacos than Ron?")
