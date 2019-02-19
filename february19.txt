@@ -1,0 +1,26 @@
+Feb 19:  Four word problems.  YOu can find examples of similar
+problems in the Humungous book, they are all at the end.
+
+I just made these up so the answers will probably be odd fractions.
+
+
+1. There is a tank with an input valve that will fill the tank
+at 85 gallons a minute.  There is a drain valve that empties the tank
+in 30 gallons a minute.  Usually it takes exactly 2 hours to fill the tank.
+
+Someone left the drain valve open, and they tried to fill the tank, not
+realizing there was a problem until the tank was filled (just like the
+guys in that other word problem!).  How long does it take to fill
+the tank.
+
+2.  Mark can pick 3 pints of rasperries an hour, and Phil can pick 2.75
+pints per hour.  Phil starts at 6 AM, Mark starts at 8 AM.  They both
+pick constantly until they have a total of 15 pints.  What time is that?
+
+3.  "To ride this ride," the ride operator told Billy, "you must factor
+'9*x^2 - 4'.  Billy told him the two factors of the expression.  What
+were they?
+
+4.  If I have a package of mixed nuts that is 15% pecans, and I add it
+to an 8 pound bag of mixed nuts of 50% pecans, and the resulting mixture
+is 30 pounds, what is the percent of pecans in the 30 pount bag?
