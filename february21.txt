@@ -1,0 +1,22 @@
+Problem 1 is probably pretty easy, 2 and 3 might be hard.  If you
+are able to write down an equation in one variable, even if
+there is a lot of fractional arithmetic, that is the easiest way to solve.
+
+
+1.  You have 5 lbs of tea worth $5/lb and mix it with 2 lbs of tea
+worth $10/lb.  How much is the resulting mixture worth per lb?
+
+2.  You have 3 pounds of tea worth 2.20/lb.  You mix in some
+cheaper tea to get 10 pounds worth $1.90/lb.  How much is the cheaper
+tea worth per pound?
+
+
+3.  You have som tea worth $6/lb and you mix it with some tea
+worth  $5/lb to get 10 lbs of tea worth $5.20/lb -- how much of
+each type is used?
+
+On the red book, page 283, we both had problems solving #38.  Try
+it again.
+
+
+  
