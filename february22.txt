@@ -1,0 +1,13 @@
+Range -- On page 379 of the red book, read the text.  The arrow
+notation they talk about for functions you might never see outside
+of a math class, but the "P(n)" notation for functions should
+remind you of computer programming functions.
+
+On page 380, do problems 1-7; check your answers in the back of the book.
+
+------
+
+Word Problems:
+
+On page 329, chose any three problems from section "B" (13-20) and solve
+them.
