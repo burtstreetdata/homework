@@ -4,3 +4,6 @@ On page 503, do all the even-numbered problems.  Any that you don't know how to 
 be some that we haven't gone over.
 
 What is the significance of the instruction on the last page "Assume that no denominator is zero.?"
+
+It is fine if you want to use my library code to try on-line tests.  I wrote it on the inside cover of back of
+math book with a super-clever disguised version of my password.
