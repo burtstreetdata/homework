@@ -1,0 +1,6 @@
+March 6
+
+On page 503, do all the even-numbered problems.  Any that you don't know how to do, write "not covered" -- there might
+be some that we haven't gone over.
+
+What is the significance of the instruction on the last page "Assume that no denominator is zero.?"
