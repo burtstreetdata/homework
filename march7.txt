@@ -1,0 +1,32 @@
+March 7
+
+On page 503, do all the odd-numbered problems, but skip 19, and add in 16.
+
+Any that you don't know how to do, write "not covered".
+
+
+
+About problems 16 and 17:   I couldn't remember last night, here is how:
+
+Say you have "The line that has slope 4 and contans 2,3.  Then you
+know it's
+
+     y=mx+b
+
+and m is 4 so
+
+    y=4x+b
+
+and you know (2,3) is on the line:
+
+    3=4*2+b
+
+So from that you can get b. . . and get perhaps -5, then you know
+b= -5, and y = 4, so  . . . .
+
+   y=mx+b
+   y=4x-5
+
+So you should be able to solve problem 17 like that and 16 is similar,
+you get the slope and use either of the two points as above to find the
+y intercept
